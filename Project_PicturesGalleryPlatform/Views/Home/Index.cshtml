@@ -1,0 +1,325 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <link rel="stylesheet" href="~/css/index.css" media="screen">
+</head>
+
+@section Scripts {
+    <script src="~/js/infinite-scroll.js"></script>
+}
+
+<section class="u-align-center u-clearfix u-container-align-center u-image u-shading u-section-1" id="carousel_e1cb"
+         data-image-width="1980" data-image-height="1320">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <img src="~/images/9fb2ea9a-91a0-97db-5d96-d9dfef0b1d22.png" alt=""
+             class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" data-image-width="194"
+             data-image-height="172">
+        <h1 class="u-custom-font u-font-montserrat u-text u-text-grey-75 u-text-1"> &nbsp;圖庫平台 </h1>
+        <h3 class="u-custom-font u-font-lato u-text u-text-2"> WE SEARCH AND FIND PICTURE FOR YOU </h3>
+        <div class="u-form u-form-1">
+            <form method="post" action="home/SearchImages"
+                  class="u-clearfix u-form-horizontal u-form-spacing-15 u-inner-form" style="padding: 15px" source="email">
+                <div class="u-form-group u-form-name u-label-top">
+                    <label for="name-558c" class="u-label">type something...</label>
+                    <input type="text" placeholder="找什麼圖片呢？ 例如：夕陽、高樓、手機...​" id="searchKeyword" name="keyword"
+                           class="u-input u-input-rectangle">
+                </div>
+                <div class="u-form-group u-form-submit u-label-top">
+                    <a href="#" class="u-btn u-btn-submit u-button-style" onclick="this.closest('form').submit(); return false;">Submit</a>
+                    <input id="submitSearch" type="submit" value="submit" class="u-form-control-hidden">
+                </div>
+                <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
+                <div class="u-form-send-error u-form-send-message">
+                    Unable to send your message. Please fix errors then try
+                    again.
+                </div>
+                <input type="hidden" value="" name="recaptchaResponse">
+                <input type="hidden" name="formServices" value="d6043652-f3e6-cf63-5c85-3b11cacf224f">
+            </form>
+
+        </div>
+        <h3 class="u-text u-text-3">以圖搜圖： </h3>
+        <div class="u-container-style u-gradient u-group u-radius u-shape-round u-group-1">
+            <div class="u-container-layout u-valign-middle u-container-layout-1">
+                <p class="u-text u-text-default u-text-grey-50 u-text-4">上傳一張圖片吧！ </p>
+            </div>
+        </div>
+        <a href=""
+           class="u-border-grey-75 u-border-none u-btn u-btn-round u-button-style u-hover-black u-palette-5-dark-2 u-radius u-text-body-alt-color u-text-hover-white u-btn-2">
+            瀏覽檔案
+        </a>
+        <a href=""
+           class="u-border-none u-btn u-btn-round u-button-style u-hover-black u-palette-5-dark-2 u-radius u-text-body-alt-color u-text-hover-white u-btn-3">
+            上傳檔案
+        </a>
+        <div class="u-align-center u-social-icons u-spacing-10 u-social-icons-1">
+            <a class="u-palette-1-base u-social-url u-text-body-alt-color" title="facebook" target="_blank"
+               href="https://facebook.com/name">
+                <span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-white u-icon-1">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                        <use xlink:href="#svg-17ec"></use>
+                    </svg>
+                    <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-17ec">
+                        <path d="m452 0h-392c-33.085938 0-60 26.914062-60 60v392c0 33.085938 26.914062 60 60 60h392c33.085938 0 60-26.914062 60-60v-392c0-33.085938-26.914062-60-60-60zm20 452c0 11.027344-8.972656 20-20 20h-118v-146h64.027344l7.460937-62h-71.488281v-67c0-17.101562 12.898438-30 30-30h45v-58c-11.84375-1.671875-34.691406-4-45-4-23.324219 0-46.703125 9.839844-64.140625 26.992188-17.964844 17.671874-27.859375 40.820312-27.859375 65.183593v66.824219h-65v62h65v146h-212c-11.027344 0-20-8.972656-20-20v-392c0-11.027344 8.972656-20 20-20h392c11.027344 0 20 8.972656 20 20zm0 0">
+                        </path>
+                    </svg>
+                </span>
+            </a>
+            <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/name">
+                <span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white u-icon-2">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                        <use xlink:href="#svg-ff19"></use>
+                    </svg>
+                    <svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-ff19"
+                         style="enable-background:new 0 0 512 512;">
+                        <g>
+                            <g>
+                                <path d="M339.478,339.478H239.304c-9.206,0-16.696-7.49-16.696-16.696v-50.087h116.87c27.618,0,50.087-22.469,50.087-50.087    c0-27.618-22.469-50.087-50.087-50.087h-116.87v-50.087c0-27.618-22.469-50.087-50.087-50.087    c-27.618,0-50.087,22.469-50.087,50.087v200.348c0,64.442,52.428,116.87,116.87,116.87h100.174    c27.618,0,50.087-22.469,50.087-50.087C389.565,361.947,367.096,339.478,339.478,339.478z M339.478,406.261H239.304    c-46.03,0-83.478-37.448-83.478-83.478V122.435c0-9.206,7.49-16.696,16.696-16.696c9.206,0,16.696,7.49,16.696,16.696v66.783    c0,9.22,7.475,16.696,16.696,16.696h133.565c9.206,0,16.696,7.49,16.696,16.696s-7.49,16.696-16.696,16.696H205.913    c-9.22,0-16.696,7.475-16.696,16.696v66.783c0,27.618,22.469,50.087,50.087,50.087h100.174c9.206,0,16.696,7.49,16.696,16.696    C356.174,398.771,348.684,406.261,339.478,406.261z">
+                                </path>
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M422.957,0H89.044C39.945,0,0,39.945,0,89.044v333.913C0,472.055,39.945,512,89.044,512h333.913    C472.055,512,512,472.055,512,422.957V89.044C512,39.945,472.055,0,422.957,0z M478.609,422.957    c0,30.687-24.966,55.652-55.652,55.652H89.044c-30.687,0-55.652-24.966-55.652-55.652V89.044    c0-30.687,24.966-55.652,55.652-55.652h333.913c30.687,0,55.652,24.966,55.652,55.652V422.957z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+            </a>
+            <a class="u-social-url" title="instagram" target="_blank" href="https://www.instagram.com/name">
+                <span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white u-icon-3">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                        <use xlink:href="#svg-bdf8"></use>
+                    </svg>
+                    <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-bdf8">
+                        <path d="m452 512h-392c-33.084 0-60-26.916-60-60v-392c0-33.084 26.916-60 60-60h392c33.084 0 60 26.916 60 60v392c0 33.084-26.916 60-60 60zm-392-472c-11.028 0-20 8.972-20 20v392c0 11.028 8.972 20 20 20h392c11.028 0 20-8.972 20-20v-392c0-11.028-8.972-20-20-20zm196 361c-79.953 0-145-65.047-145-145s65.047-145 145-145 145 65.047 145 145-65.047 145-145 145zm0-250c-57.897 0-105 47.103-105 105s47.103 105 105 105 105-47.103 105-105-47.103-105-105-105zm156-71c-11.046 0-20 8.954-20 20 0 11.046 8.954 20 20 20 11.046 0 20-8.954 20-20 0-11.046-8.954-20-20-20z">
+                        </path>
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="u-align-center u-clearfix u-container-align-center u-section-2" id="sec-2226">
+    <div class="u-clearfix u-sheet u-sheet-1"></div>
+</section>
+<section class="u-align-center u-clearfix u-container-align-center u-section-3" id="carousel_79d5">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-font-montserrat u-text u-text-1">推薦圖片 ...</h1>
+        <p class="u-text u-text-2">沒想法嗎？我們為你推薦主題！ </p>
+        <div class="u-expanded-width u-list u-list-1">
+            <div class="u-repeater u-repeater-1">
+                <div class="u-align-center u-border-2 u-border-palette-1-base u-container-align-center u-container-style u-image u-list-item u-repeater-item u-shading u-shape-rectangle u-image-1">
+                    <div class="u-container-layout u-similar-container u-container-layout-1">
+                        <span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-1"
+                              data-animation-name="customAnimationIn" data-animation-duration="2000" data-href="@Url.Action("People", "Home", new { area = "" })">
+                            <img src="~/images/3126647-37e670d1.png" alt="">
+                        </span>
+                        <h4 class="u-custom-font u-font-montserrat u-text u-text-3">人物</h4>
+                    </div>
+                </div>
+                <div class="u-align-center u-border-2 u-border-palette-1-base u-container-align-center u-container-style u-image u-list-item u-repeater-item u-shading u-shape-rectangle u-image-2">
+                    <div class="u-container-layout u-similar-container u-container-layout-2">
+                        <span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-2"
+                              data-animation-name="customAnimationIn" data-animation-duration="2000" data-href="@Url.Action("Scenery", "Home", new { area = "" })">
+                            <img src="~/images/4893722-07879c63.png" alt="">
+                        </span>
+                        <h4 class="u-custom-font u-font-montserrat u-text u-text-4">風景</h4>
+                    </div>
+                </div>
+                <div class="u-align-center u-border-2 u-border-palette-1-base u-container-align-center u-container-style u-image u-list-item u-repeater-item u-shading u-shape-rectangle u-image-3">
+                    <div class="u-container-layout u-similar-container u-container-layout-3">
+                        <span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-3"
+                              data-animation-name="customAnimationIn" data-animation-duration="2000" data-href="@Url.Action("Animal", "Home", new { area = "" })">
+                            <img src="~/images/1776896-30a5aba1.png" alt="">
+                        </span>
+                        <h4 class="u-custom-font u-font-montserrat u-text u-text-5">動物</h4>
+                    </div>
+                </div>
+                <div class="u-align-center u-border-2 u-border-palette-1-base u-container-align-center u-container-style u-image u-list-item u-repeater-item u-shading u-shape-rectangle u-image-4">
+                    <div class="u-container-layout u-similar-container u-container-layout-4">
+                        <span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-4"
+                              data-animation-name="customAnimationIn" data-animation-duration="2000" data-href="@Url.Action("Tech", "Home", new { area = "" })">
+                            <img src="~/images/780477-d7fa0b57.png" alt="">
+                        </span>
+                        <h4 class="u-custom-font u-font-montserrat u-text u-text-6">科技</h4>
+                    </div>
+                </div>
+                <div class="u-align-center u-border-2 u-border-palette-1-base u-container-align-center u-container-style u-image u-list-item u-repeater-item u-shading u-shape-rectangle u-image-5">
+                    <div class="u-container-layout u-similar-container u-container-layout-5">
+                        <span class="u-file-icon u-icon u-icon-circle u-palette-1-base u-text-white u-icon-5"
+                              data-animation-name="customAnimationIn" data-animation-duration="2000" data-href="@Url.Action("Food", "Home", new { area = "" })">
+                            <img src="~/images/738079-790e5e05.png" alt="">
+                        </span>
+                        <h4 class="u-custom-font u-font-montserrat u-text u-text-7">食物 </h4>
+                    </div>
+                </div>
+                <div class="u-align-center u-border-2 u-border-palette-1-base u-container-align-center u-container-style u-image u-list-item u-repeater-item u-shading u-shape-rectangle u-image-6">
+                    <div class="u-container-layout u-similar-container u-container-layout-6">
+                        <span class="u-icon u-icon-circle u-palette-1-base u-text-white u-icon-6"
+                              data-animation-name="customAnimationIn" data-animation-duration="2000" data-href="backup.html">
+                            <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                                <use xlink:href="#svg-2080"></use>
+                            </svg>
+                            <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-2080">
+                                <path d="m497 482v-39.503906c0-11.105469-9.035156-20.140625-20.144531-20.140625h-15.351563v-29.285157c0-10.035156-7.269531-18.40625-16.828125-20.140624v-149.78125h37.324219c8.285156 0 15-6.71875 15-15 0-8.285157-6.714844-15-15-15h-5v-34.574219c0-5.199219-2.035156-10.191407-5.632812-13.90625l-29.90625-35.714844-.808594-.722656c-3.679688-3.285157-8.421875-5.097657-13.355469-5.097657h-10.953125v-24.882812c0-8.292969-4.910156-15.8125-12.507812-19.164062l-140.839844-57.671876c-4.460938-1.882812-9.527344-1.886718-13.992188-.003906l-140.472656 57.523438-.367188.152344c-7.597656 3.351562-12.507812 10.871093-12.507812 19.164062v24.882812h-11.375c-4.976562 0-9.746094 1.835938-13.4375 5.167969l-.8125.734375-29.480469 35.703125c-3.542969 3.707031-5.550781 8.664063-5.550781 13.824219v34.582031h-5c-8.285156 0-15 6.71875-15 15 0 8.285157 6.714844 15 15 15h36.785156v149.734375c-9.695312 1.617188-17.113281 10.054688-17.113281 20.1875v29.285156h-14.527344c-11.109375.003907-20.144531 9.039063-20.144531 20.144532v39.503906c-8.285156 0-15 6.714844-15 15s6.714844 15 15 15h482c8.285156 0 15-6.714844 15-15s-6.714844-15-15-15zm-129.503906-59.644531v-19.753907h64.007812v19.753907zm-49.492188 0v-29.285157c0-10.035156-7.269531-18.410156-16.828125-20.140624v-149.78125h53.4375v149.730468c-9.699219 1.617188-17.113281 10.054688-17.113281 20.191406v29.285157zm-94.007812 0v-19.753907h64.007812v19.753907zm-50.316406 0v-29.285157c0-10.035156-7.269532-18.40625-16.828126-20.140624v-149.78125h54.257813v149.730468c-9.695313 1.617188-17.113281 10.054688-17.113281 20.191406v29.285157zm97.496093-49.753907h-30.066406v-149.453124h30.066406zm143.5 0h-30.0625v-149.453124h30.0625zm-289.019531-288.265624 130.34375-53.371094 130.34375 53.371094v18.796874h-260.6875zm-60.65625 108.808593v-30.898437l24.035156-29.113282h333.546875l24.417969 29.164063v30.847656zm61.851562 30.003907v149.453124h-30.066406v-149.453124zm-47.179687 179.453124h64.007813v19.753907h-64.007813zm-34.671875 79.398438v-29.644531h422v29.644531zm0 0">
+                                </path>
+                            </svg>
+                        </span>
+                        <h4 class="u-custom-font u-font-montserrat u-text u-text-8">（預留） </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="u-align-center u-clearfix u-container-align-center u-section-4" id="carousel_2dab">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <span class="u-icon u-icon-circle u-text-palette-1-base u-icon-1">
+            <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.294 409.294" style="">
+                <use xlink:href="#svg-ca89"></use>
+            </svg>
+            <svg class="u-svg-content" viewBox="0 0 409.294 409.294" id="svg-ca89">
+                <path d="m233.882 29.235v175.412h116.941c0 64.48-52.461 116.941-116.941 116.941v58.471c96.728 0 175.412-78.684 175.412-175.412v-175.412z">
+                </path>
+                <path d="m0 204.647h116.941c0 64.48-52.461 116.941-116.941 116.941v58.471c96.728 0 175.412-78.684 175.412-175.412v-175.412h-175.412z">
+                </path>
+            </svg>
+        </span>
+        <h4 class="u-custom-font u-font-montserrat u-text u-text-1">
+            我們提供圖片搜尋的功能、推薦圖片、以圖搜圖...等，如果你加入會員，可以使用我的最愛來保留喜歡的圖片，更可以評級圖片、查看排行等等。你也可以下載圖片或分享圖片到其他平台！
+        </h4>
+        <img class="u-image u-image-contain u-image-default u-image-1" src="~/images/Man-Design.png" alt=""
+             data-image-width="792" data-image-height="991" data-animation-name="customAnimationIn"
+             data-animation-duration="2000">
+        <h5 class="u-custom-font u-font-montserrat u-text u-text-default u-text-2">第一組所有成員</h5>
+    </div>
+</section>
+<section class="u-align-center u-clearfix u-container-align-center u-section-5" id="carousel_8f62">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-custom-font u-font-montserrat u-text u-text-1">關於收費... </h2>
+        <p class="u-heading-font u-text u-text-2">（金流預留頁面） </p>
+        <div class="u-expanded-width u-list u-list-1">
+            <div class="u-repeater u-repeater-1">
+                <div class="u-align-center u-border-2 u-border-palette-1-light-2 u-container-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-1">
+                        <h3 class="u-custom-font u-font-montserrat u-text u-text-palette-1-base u-text-3"
+                            data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">
+                            NTD.50 /m
+                        </h3>
+                        <h4 class="u-custom-font u-font-montserrat u-text u-text-4">3個月方案</h4>
+                    </div>
+                </div>
+                <div class="u-align-center u-border-2 u-border-palette-1-light-2 u-container-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-2">
+                        <h3 class="u-custom-font u-font-montserrat u-text u-text-palette-1-base u-text-5"
+                            data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">
+                            NTD.90 /m
+                        </h3>
+                        <h4 class="u-custom-font u-font-montserrat u-text u-text-6">6個月方案 </h4>
+                    </div>
+                </div>
+                <div class="u-align-center u-border-2 u-border-palette-1-light-2 u-container-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-3">
+                        <h3 class="u-custom-font u-font-montserrat u-text u-text-palette-1-base u-text-7"
+                            data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">
+                            NTD.130 /m
+                        </h3>
+                        <h4 class="u-custom-font u-font-montserrat u-text u-text-8">1年方案</h4>
+                    </div>
+                </div>
+                <div class="u-align-center u-border-2 u-border-palette-1-light-2 u-container-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-4">
+                        <h3 class="u-custom-font u-font-montserrat u-text u-text-palette-1-base u-text-9"
+                            data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">
+                            NTD.170 /m
+                        </h3>
+                        <h4 class="u-custom-font u-font-montserrat u-text u-text-10">unlimit方案 </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="u-border-none u-btn u-button-style u-hover-palette-1-light-2 u-palette-1-base u-btn-1">
+            read
+            more
+        </a>
+    </div>
+</section>
+<section class="u-align-center u-clearfix u-container-align-center u-grey-5 u-section-6" id="carousel_f5b8">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-text-1">聯絡我們</h1>
+        <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-20 u-layout-wrap u-white u-layout-wrap-1">
+            <div class="u-layout">
+                <div class="u-layout-row">
+                    <div class="u-container-style u-layout-cell u-size-22 u-layout-cell-1">
+                        <div class="u-container-layout u-container-layout-1">
+                            <div class="u-image u-image-circle u-image-1" data-image-width="720" data-image-height="1080"
+                                 data-animation-name="customAnimationIn" data-animation-duration="2000"></div>
+                            <p class="u-text u-text-default u-text-2">預留（敘述）</p>
+                        </div>
+                    </div>
+                    <div class="u-container-style u-layout-cell u-size-38 u-layout-cell-2">
+                        <div class="u-container-layout u-container-layout-2">
+                            <div class="u-form u-form-1">
+                                <form action="https://forms.nicepagesrv.com/v2/form/process"
+                                      class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 0;" source="email"
+                                      name="form">
+                                    <div class="u-form-group u-form-name u-form-group-1">
+                                        <label for="name-f2a8" class="u-label u-label-1">名字</label>
+                                        <input type="text" placeholder="輸入名字" id="name-f2a8" name="name"
+                                               class="u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle"
+                                               required="">
+                                    </div>
+                                    <div class="u-form-group u-form-select u-form-group-2">
+                                        <label for="select-8e9d" class="u-form-control-hidden u-label u-label-2">Select</label>
+                                        <div class="u-form-select-wrapper">
+                                            <select id="select-8e9d" name="select"
+                                                    class="u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle">
+                                                <option value="問題類別Ａ" data-calc="">問題類別Ａ</option>
+                                                <option value="問題類別Ｂ" data-calc="">問題類別Ｂ</option>
+                                                <option value="問題類別Ｃ" data-calc="">問題類別Ｃ</option>
+                                            </select>
+                                            <svg class="u-caret u-caret-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px"
+                                                 viewBox="0 0 16 16" style="fill:currentColor;" xml:space="preserve">
+                                            <polygon class="st0" points="8,12 2,4 14,4 "></polygon>
+                        </svg>
+                                        </div>
+                                    </div>
+                                    <div class="u-form-group u-form-phone u-form-group-3">
+                                        <label for="phone-447e" class="u-label u-label-3">電話</label>
+                                        <input type="tel"
+                                               pattern="\+?\d{0,2}[\s\(\-]?([0-9]{3})[\s\)\-]?([\s\-]?)([0-9]{3})[\s\-]?([0-9]{2})[\s\-]?([0-9]{2})"
+                                               placeholder="輸入電話號碼(e.g. 0901234567)" id="phone-447e" name="phone"
+                                               class="u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle"
+                                               required="">
+                                    </div>
+                                    <div class="u-form-group u-form-message u-form-group-4">
+                                        <label for="message-f2a8" class="u-label u-label-4">訊息</label>
+                                        <textarea placeholder="想告訴我們什麼？" rows="4" cols="50" id="message-f2a8" name="message"
+                                                  class="u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle"
+                                                  required=""></textarea>
+                                    </div>
+                                    <div class="u-align-left u-form-group u-form-submit u-form-group-5">
+                                        <a href="#"
+                                           class="u-border-none u-btn u-btn-rectangle u-btn-submit u-button-style u-palette-1-base u-btn-1">提交</a>
+                                        <input type="submit" value="submit" class="u-form-control-hidden">
+                                    </div>
+                                    <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+                                    <div class="u-form-send-error u-form-send-message">
+                                        Unable to send your message. Please fix errors
+                                        then try again.
+                                    </div>
+                                    <input type="hidden" value="" name="recaptchaResponse">
+                                    <input type="hidden" name="formServices" value="d6043652-f3e6-cf63-5c85-3b11cacf224f">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

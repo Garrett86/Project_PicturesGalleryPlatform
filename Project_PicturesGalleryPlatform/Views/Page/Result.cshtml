@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<p>搜尋結果：@ViewData["keyword"]</p>
+
+<div id="imageResultsContainer" data-url="@Url.Action("GetImagesByPage", "Home")">
+</div>
+
+@section Styles {
+    <link href="~/css/styles.css" rel="stylesheet" />
+}
+
+@section Scripts {
+    <script src="~/js/infinite-scroll.js"></script>
+}

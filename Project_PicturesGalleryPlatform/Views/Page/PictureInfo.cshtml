@@ -1,0 +1,110 @@
+﻿@{
+    var pictures = ViewData["picture"] as List<ImageDetails>;
+}
+<style>
+    .txt {
+        display: flex;
+        justify-content: space-around;
+        font-size: 16px;
+    }
+
+
+        .txt a {
+            text-decoration: none;
+            color: #000;
+        }
+
+            .txt a:hover {
+                text-decoration: none !important;
+                color: #5B5B5B !important;
+            }
+
+    #urlTag a {
+        text-decoration: none;
+        color: #7B7B7B;
+    }
+
+        #urlTag a:hover {
+            text-decoration: none !important;
+            color: #BEBEBE; !important;
+        }
+</style>
+
+@if (pictures != null && pictures.Any())
+{
+    @foreach (var pic in pictures)
+    {
+
+        <div class="container-md">
+            <div class="row align-items-start">
+                <div class="col">
+                    <figure class="figure">
+                        <img src="@pic.url" class="figure-img img-fluid rounded dialog" alt="..." style="width:600px; height:400px">
+                        <div id="img_large" style="display:none; text-align:center;  position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(25,25,25,0.7);">
+                            <img id="large_image" src="" alt="Large Image" style="max-width: 80%; max-height: 80%; border: 3px solid #ccc; margin-top: 5%;" />
+                        </div>
+                        <div id="urlTag">
+                            <span><a href="###">#@pic.tag</a></span>
+                            <span><a href="###">#@pic.tag</a></span>
+                            <span><a href="###">#@pic.tag</a></span>
+                            <span><a href="###">#@pic.tag</a></span>
+                            <span><a href="###">#@pic.tag</a></span>
+                        </div>
+                    </figure>
+                </div>
+                <div class="col txt txt1">
+                    <!-- 下載連結 -->
+                    <a href="@pic.url"
+                       download="111.jpg" target="_blank">下載</a>
+
+                    <!-- 儲存按鈕 -->
+                    <a href="">儲存</a>
+
+                    <!-- 分享按鈕 -->
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style"
+                         data-a2a-url="@pic.url"
+                         title="分享">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                    </div>
+                </div>
+                <div class="row align-items-start">
+                    <div class="col">
+                        <div style=" float: right; position: relative; right: 50px; font-size: 12px;">
+                            <span>照片格式</span><br />
+                            <span>@pic.width </span>
+                            <span>X </span>
+                            <span>@pic.height</span>
+                            <span>像素</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+@section scripts {
+    <script>
+        $(function () {
+            // 點擊圖片顯示大圖
+            $(".dialog").click(function () {
+                var imgSrc = $(this).attr("src"); // 取得點擊圖片的 src
+                var largeImage = $('#large_image');
+
+                // 設定大圖的 src
+                largeImage.attr("src", imgSrc);
+
+                // 顯示背景和大圖
+                $('#img_large').fadeIn(300);
+            });
+
+            // 點擊大圖背景關閉
+            $('#img_large').click(function () {
+                $(this).fadeOut(300);
+            });
+        });
+    </script>
+}
+@{
+    <script defer src="https://static.addtoany.com/menu/page.js"></script>
+}
