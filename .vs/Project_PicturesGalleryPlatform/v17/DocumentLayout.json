@@ -1,46 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\\u8077\u8A13-\u5B8F\u7881\u73ED\\\u5C08\u6848\\Project_PicturesGalleryPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|c:\\users\\user\\documents\\github\\project_picturesgalleryplatform_ver1.1\\project_picturesgalleryplatform\\repositories\\imagedatabaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|solutionrelative:project_picturesgalleryplatform\\repositories\\imagedatabaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|c:\\users\\user\\\u8077\u8A13-\u5B8F\u7881\u73ED\\\u5C08\u6848\\project_picturesgalleryplatform\\project_picturesgalleryplatform\\models\\upload\\userupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|solutionrelative:project_picturesgalleryplatform\\models\\upload\\userupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|c:\\users\\user\\documents\\github\\project_picturesgalleryplatform_ver1.1\\project_picturesgalleryplatform\\views\\food\\food.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|solutionrelative:project_picturesgalleryplatform\\views\\food\\food.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|c:\\users\\user\\\u8077\u8A13-\u5B8F\u7881\u73ED\\\u5C08\u6848\\project_picturesgalleryplatform\\project_picturesgalleryplatform\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|solutionrelative:project_picturesgalleryplatform\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|c:\\users\\user\\documents\\github\\project_picturesgalleryplatform_ver1.1\\project_picturesgalleryplatform\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|solutionrelative:project_picturesgalleryplatform\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|c:\\users\\user\\documents\\github\\project_picturesgalleryplatform_ver1.1\\project_picturesgalleryplatform\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|solutionrelative:project_picturesgalleryplatform\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|c:\\users\\user\\documents\\github\\project_picturesgalleryplatform_ver1.1\\project_picturesgalleryplatform\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|solutionrelative:project_picturesgalleryplatform\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|c:\\users\\user\\documents\\github\\project_picturesgalleryplatform_ver1.1\\project_picturesgalleryplatform\\views\\member\\member.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|solutionrelative:project_picturesgalleryplatform\\views\\member\\member.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|c:\\users\\user\\documents\\github\\project_picturesgalleryplatform_ver1.1\\project_picturesgalleryplatform\\views\\singlepic\\singlepic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|solutionrelative:project_picturesgalleryplatform\\views\\singlepic\\singlepic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|c:\\users\\user\\documents\\github\\project_picturesgalleryplatform_ver1.1\\project_picturesgalleryplatform\\controllers\\singlepiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|solutionrelative:project_picturesgalleryplatform\\controllers\\singlepiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|c:\\users\\user\\documents\\github\\project_picturesgalleryplatform_ver1.1\\project_picturesgalleryplatform\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|solutionrelative:project_picturesgalleryplatform\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|c:\\users\\user\\documents\\github\\project_picturesgalleryplatform_ver1.1\\project_picturesgalleryplatform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|solutionrelative:project_picturesgalleryplatform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|c:\\users\\user\\\u8077\u8A13-\u5B8F\u7881\u73ED\\\u5C08\u6848\\project_picturesgalleryplatform\\project_picturesgalleryplatform\\models\\upload\\pictureinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE2FB88-62A8-46C8-B978-726C15DE5706}|Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj|solutionrelative:project_picturesgalleryplatform\\models\\upload\\pictureinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 211,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -63,123 +31,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ImageDatabaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Repositories\\ImageDatabaseRepository.cs",
-              "RelativeDocumentMoniker": "Project_PicturesGalleryPlatform\\Repositories\\ImageDatabaseRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Repositories\\ImageDatabaseRepository.cs",
-              "RelativeToolTip": "Project_PicturesGalleryPlatform\\Repositories\\ImageDatabaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACIAAAAAAAAAA==",
+              "Title": "UserUpload.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u8077\u8A13-\u5B8F\u7881\u73ED\\\u5C08\u6848\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\Models\\Upload\\UserUpload.cs",
+              "RelativeDocumentMoniker": "Project_PicturesGalleryPlatform\\Models\\Upload\\UserUpload.cs",
+              "ToolTip": "C:\\Users\\user\\\u8077\u8A13-\u5B8F\u7881\u73ED\\\u5C08\u6848\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\Models\\Upload\\UserUpload.cs",
+              "RelativeToolTip": "Project_PicturesGalleryPlatform\\Models\\Upload\\UserUpload.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwFcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T08:26:21.914Z",
+              "WhenOpened": "2024-12-24T07:40:36.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "pictureInformation.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u8077\u8A13-\u5B8F\u7881\u73ED\\\u5C08\u6848\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\Models\\Upload\\pictureInformation.cs",
+              "RelativeDocumentMoniker": "Project_PicturesGalleryPlatform\\Models\\Upload\\pictureInformation.cs",
+              "ToolTip": "C:\\Users\\user\\\u8077\u8A13-\u5B8F\u7881\u73ED\\\u5C08\u6848\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\Models\\Upload\\pictureInformation.cs",
+              "RelativeToolTip": "Project_PicturesGalleryPlatform\\Models\\Upload\\pictureInformation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T07:40:35.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Food.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Views\\Food\\Food.cshtml",
-              "RelativeDocumentMoniker": "Project_PicturesGalleryPlatform\\Views\\Food\\Food.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Views\\Food\\Food.cshtml",
-              "RelativeToolTip": "Project_PicturesGalleryPlatform\\Views\\Food\\Food.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T08:05:21.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.css",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Login.css",
-              "RelativeDocumentMoniker": "Project_PicturesGalleryPlatform\\wwwroot\\css\\Login.css",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Login.css",
-              "RelativeToolTip": "Project_PicturesGalleryPlatform\\wwwroot\\css\\Login.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-23T08:03:18.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Project_PicturesGalleryPlatform\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Project_PicturesGalleryPlatform\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\\u8077\u8A13-\u5B8F\u7881\u73ED\\\u5C08\u6848\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "Project_PicturesGalleryPlatform\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\user\\\u8077\u8A13-\u5B8F\u7881\u73ED\\\u5C08\u6848\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "Project_PicturesGalleryPlatform\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAMwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T08:01:57.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Member.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Views\\Member\\Member.cshtml",
-              "RelativeDocumentMoniker": "Project_PicturesGalleryPlatform\\Views\\Member\\Member.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Views\\Member\\Member.cshtml",
-              "RelativeToolTip": "Project_PicturesGalleryPlatform\\Views\\Member\\Member.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T07:59:52.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SinglePic.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Views\\SinglePic\\SinglePic.cshtml",
-              "RelativeDocumentMoniker": "Project_PicturesGalleryPlatform\\Views\\SinglePic\\SinglePic.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Views\\SinglePic\\SinglePic.cshtml",
-              "RelativeToolTip": "Project_PicturesGalleryPlatform\\Views\\SinglePic\\SinglePic.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T07:58:26.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Project_PicturesGalleryPlatform\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Project_PicturesGalleryPlatform\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJgAAACfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T07:55:34.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Views\\Login\\Login.cshtml",
-              "RelativeDocumentMoniker": "Project_PicturesGalleryPlatform\\Views\\Login\\Login.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Views\\Login\\Login.cshtml",
-              "RelativeToolTip": "Project_PicturesGalleryPlatform\\Views\\Login\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T07:55:00.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SinglePicController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Controllers\\SinglePicController.cs",
-              "RelativeDocumentMoniker": "Project_PicturesGalleryPlatform\\Controllers\\SinglePicController.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Controllers\\SinglePicController.cs",
-              "RelativeToolTip": "Project_PicturesGalleryPlatform\\Controllers\\SinglePicController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T07:54:42.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Project_PicturesGalleryPlatform\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Project_PicturesGalleryPlatform\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T07:52:07.798Z"
+              "WhenOpened": "2024-12-24T07:34:26.528Z",
+              "EditorCaption": ""
             }
           ]
         }

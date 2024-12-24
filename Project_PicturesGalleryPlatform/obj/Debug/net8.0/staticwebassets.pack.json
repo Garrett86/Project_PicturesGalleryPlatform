@@ -1,800 +1,796 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Project_PicturesGalleryPlatform.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Project_PicturesGalleryPlatform.l2knazgh13.bundle.scp.css"
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Project_PicturesGalleryPlatform.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Project_PicturesGalleryPlatform.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Login.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Post-Template.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Post-Template.css",
       "PackagePath": "staticwebassets\\css\\Post-Template.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Product-Details-Template.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Product-Details-Template.css",
       "PackagePath": "staticwebassets\\css\\Product-Details-Template.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Product-List-Template.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Product-List-Template.css",
       "PackagePath": "staticwebassets\\css\\Product-List-Template.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Register.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Register.css",
       "PackagePath": "staticwebassets\\css\\Register.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Thank-You-Page-Template.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\Thank-You-Page-Template.css",
       "PackagePath": "staticwebassets\\css\\Thank-You-Page-Template.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\animal.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\animal.css",
       "PackagePath": "staticwebassets\\css\\animal.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\backup.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\backup.css",
       "PackagePath": "staticwebassets\\css\\backup.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\food.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\food.css",
       "PackagePath": "staticwebassets\\css\\food.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\index.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\member.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\member.css",
       "PackagePath": "staticwebassets\\css\\member.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\memberModify.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\memberModify.css",
       "PackagePath": "staticwebassets\\css\\memberModify.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\nicepage.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\nicepage.css",
       "PackagePath": "staticwebassets\\css\\nicepage.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\people.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\people.css",
       "PackagePath": "staticwebassets\\css\\people.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\picShopping.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\picShopping.css",
       "PackagePath": "staticwebassets\\css\\picShopping.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\scenery.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\scenery.css",
       "PackagePath": "staticwebassets\\css\\scenery.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\singlePic.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\singlePic.css",
       "PackagePath": "staticwebassets\\css\\singlePic.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\styles.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\css\\tech.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\css\\tech.css",
       "PackagePath": "staticwebassets\\css\\tech.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\0fd3416c.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\0fd3416c.jpeg",
       "PackagePath": "staticwebassets\\images\\0fd3416c.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\125902.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\125902.jpg",
       "PackagePath": "staticwebassets\\images\\125902.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\129373.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\129373.jpg",
       "PackagePath": "staticwebassets\\images\\129373.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\130197-3178f650.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\130197-3178f650.png",
       "PackagePath": "staticwebassets\\images\\130197-3178f650.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\130197.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\130197.png",
       "PackagePath": "staticwebassets\\images\\130197.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\16501.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\16501.jpg",
       "PackagePath": "staticwebassets\\images\\16501.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\1776896-30a5aba1.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\1776896-30a5aba1.png",
       "PackagePath": "staticwebassets\\images\\1776896-30a5aba1.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\1776896.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\1776896.png",
       "PackagePath": "staticwebassets\\images\\1776896.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\2149846563.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\2149846563.jpg",
       "PackagePath": "staticwebassets\\images\\2149846563.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\2150794211.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\2150794211.jpg",
       "PackagePath": "staticwebassets\\images\\2150794211.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\2151235300.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\2151235300.jpg",
       "PackagePath": "staticwebassets\\images\\2151235300.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\3.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\3.png",
       "PackagePath": "staticwebassets\\images\\3.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\3126647-37e670d1.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\3126647-37e670d1.png",
       "PackagePath": "staticwebassets\\images\\3126647-37e670d1.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\3126647.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\3126647.png",
       "PackagePath": "staticwebassets\\images\\3126647.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\34343.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\34343.jpg",
       "PackagePath": "staticwebassets\\images\\34343.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\414330ad.svg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\414330ad.svg",
       "PackagePath": "staticwebassets\\images\\414330ad.svg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\42243.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\42243.jpg",
       "PackagePath": "staticwebassets\\images\\42243.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\42b829de-7d0b-0ded-b752-3cade6e99db4.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\42b829de-7d0b-0ded-b752-3cade6e99db4.jpg",
       "PackagePath": "staticwebassets\\images\\42b829de-7d0b-0ded-b752-3cade6e99db4.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\4893722-07879c63.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\4893722-07879c63.png",
       "PackagePath": "staticwebassets\\images\\4893722-07879c63.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\4893722.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\4893722.png",
       "PackagePath": "staticwebassets\\images\\4893722.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\53c4c417.svg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\53c4c417.svg",
       "PackagePath": "staticwebassets\\images\\53c4c417.svg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\54654.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\54654.jpg",
       "PackagePath": "staticwebassets\\images\\54654.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\5653.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\5653.jpg",
       "PackagePath": "staticwebassets\\images\\5653.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\566.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\566.jpg",
       "PackagePath": "staticwebassets\\images\\566.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\5661.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\5661.jpg",
       "PackagePath": "staticwebassets\\images\\5661.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\6537f30a.svg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\6537f30a.svg",
       "PackagePath": "staticwebassets\\images\\6537f30a.svg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\655523.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\655523.jpg",
       "PackagePath": "staticwebassets\\images\\655523.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\65556.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\65556.jpg",
       "PackagePath": "staticwebassets\\images\\65556.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\65656.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\65656.jpg",
       "PackagePath": "staticwebassets\\images\\65656.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\68f64b9d.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\68f64b9d.jpeg",
       "PackagePath": "staticwebassets\\images\\68f64b9d.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\6eff5e48-2c41-d08b-c65b-a944fa3af1ac.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\6eff5e48-2c41-d08b-c65b-a944fa3af1ac.jpg",
       "PackagePath": "staticwebassets\\images\\6eff5e48-2c41-d08b-c65b-a944fa3af1ac.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\6f461f60.svg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\6f461f60.svg",
       "PackagePath": "staticwebassets\\images\\6f461f60.svg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\72f227b3-95c6-9c71-01e0-22b2626b426d.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\72f227b3-95c6-9c71-01e0-22b2626b426d.jpg",
       "PackagePath": "staticwebassets\\images\\72f227b3-95c6-9c71-01e0-22b2626b426d.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\738079-790e5e05.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\738079-790e5e05.png",
       "PackagePath": "staticwebassets\\images\\738079-790e5e05.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\738079.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\738079.png",
       "PackagePath": "staticwebassets\\images\\738079.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\747376-e872e00f.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\747376-e872e00f.png",
       "PackagePath": "staticwebassets\\images\\747376-e872e00f.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\747376.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\747376.png",
       "PackagePath": "staticwebassets\\images\\747376.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\776587db.svg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\776587db.svg",
       "PackagePath": "staticwebassets\\images\\776587db.svg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\780477-d7fa0b57.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\780477-d7fa0b57.png",
       "PackagePath": "staticwebassets\\images\\780477-d7fa0b57.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\780477.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\780477.png",
       "PackagePath": "staticwebassets\\images\\780477.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\8.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\8.png",
       "PackagePath": "staticwebassets\\images\\8.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\8ad73f3c.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\8ad73f3c.jpeg",
       "PackagePath": "staticwebassets\\images\\8ad73f3c.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\9fb2ea9a-91a0-97db-5d96-d9dfef0b1d22.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\9fb2ea9a-91a0-97db-5d96-d9dfef0b1d22.png",
       "PackagePath": "staticwebassets\\images\\9fb2ea9a-91a0-97db-5d96-d9dfef0b1d22.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\Man-Design.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\Man-Design.png",
       "PackagePath": "staticwebassets\\images\\Man-Design.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\attractive-couple-man-woman-talking-urban-city-center.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\attractive-couple-man-woman-talking-urban-city-center.jpg",
       "PackagePath": "staticwebassets\\images\\attractive-couple-man-woman-talking-urban-city-center.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\bg.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\bg.jpg",
       "PackagePath": "staticwebassets\\images\\bg.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\black-white-dramatic-landscapes-with-buildings-low-angle.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\black-white-dramatic-landscapes-with-buildings-low-angle.jpg",
       "PackagePath": "staticwebassets\\images\\black-white-dramatic-landscapes-with-buildings-low-angle.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\bussiness-people-working-team-office.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\bussiness-people-working-team-office.jpg",
       "PackagePath": "staticwebassets\\images\\bussiness-people-working-team-office.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\caac4e54.svg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\caac4e54.svg",
       "PackagePath": "staticwebassets\\images\\caac4e54.svg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\chic-modern-luxury-aesthetics-style-living-room-blue-tone_53876-125839.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\chic-modern-luxury-aesthetics-style-living-room-blue-tone_53876-125839.jpg",
       "PackagePath": "staticwebassets\\images\\chic-modern-luxury-aesthetics-style-living-room-blue-tone_53876-125839.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\d754debf.svg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\d754debf.svg",
       "PackagePath": "staticwebassets\\images\\d754debf.svg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\default-image-30.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\default-image-30.jpg",
       "PackagePath": "staticwebassets\\images\\default-image-30.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\default-image.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\default-image.jpg",
       "PackagePath": "staticwebassets\\images\\default-image.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\default-logo.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\default-logo.png",
       "PackagePath": "staticwebassets\\images\\default-logo.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\elegant-bedroom-interior-with-be.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\elegant-bedroom-interior-with-be.jpg",
       "PackagePath": "staticwebassets\\images\\elegant-bedroom-interior-with-be.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\fgfg4.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\fgfg4.jpg",
       "PackagePath": "staticwebassets\\images\\fgfg4.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\fgfggf54.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\fgfggf54.jpg",
       "PackagePath": "staticwebassets\\images\\fgfggf54.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\fgg.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\fgg.jpg",
       "PackagePath": "staticwebassets\\images\\fgg.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\gffgfgg-min.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\gffgfgg-min.jpg",
       "PackagePath": "staticwebassets\\images\\gffgfgg-min.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\gfgffg.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\gfgffg.jpg",
       "PackagePath": "staticwebassets\\images\\gfgffg.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\gfgffg1.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\gfgffg1.jpg",
       "PackagePath": "staticwebassets\\images\\gfgffg1.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\interior-design-with-photoframe.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\interior-design-with-photoframe.jpg",
       "PackagePath": "staticwebassets\\images\\interior-design-with-photoframe.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\interior-design-with-photoframes-couch.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\interior-design-with-photoframes-couch.jpg",
       "PackagePath": "staticwebassets\\images\\interior-design-with-photoframes-couch.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\jhjhj6.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\jhjhj6.jpg",
       "PackagePath": "staticwebassets\\images\\jhjhj6.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\low-angle-shot-tall-high-rise-modern-business-building-with-clear-sky.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\low-angle-shot-tall-high-rise-modern-business-building-with-clear-sky.jpg",
       "PackagePath": "staticwebassets\\images\\low-angle-shot-tall-high-rise-modern-business-building-with-clear-sky.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\mockup-frames-living-room-interior-with-chair-decorscandinavian-style.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\mockup-frames-living-room-interior-with-chair-decorscandinavian-style.jpg",
       "PackagePath": "staticwebassets\\images\\mockup-frames-living-room-interior-with-chair-decorscandinavian-style.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\modern-apartment-with-comfortable-a-min.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\modern-apartment-with-comfortable-a-min.jpg",
       "PackagePath": "staticwebassets\\images\\modern-apartment-with-comfortable-a-min.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\modern-luxury-authentic-dining-r.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\modern-luxury-authentic-dining-r.jpg",
       "PackagePath": "staticwebassets\\images\\modern-luxury-authentic-dining-r.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\modern-styled-entryway_23-2150695943.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\modern-styled-entryway_23-2150695943.jpeg",
       "PackagePath": "staticwebassets\\images\\modern-styled-entryway_23-2150695943.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\multiethnic-designers-pose-against-window_273609-44877.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\multiethnic-designers-pose-against-window_273609-44877.jpg",
       "PackagePath": "staticwebassets\\images\\multiethnic-designers-pose-against-window_273609-44877.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\new2.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\new2.jpg",
       "PackagePath": "staticwebassets\\images\\new2.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-alexander-isreb-1797418.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-alexander-isreb-1797418.jpg",
       "PackagePath": "staticwebassets\\images\\pexels-alexander-isreb-1797418.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-lisa-fotios-1957478.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-lisa-fotios-1957478.jpg",
       "PackagePath": "staticwebassets\\images\\pexels-lisa-fotios-1957478.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-nazila-21345908copy.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-nazila-21345908copy.jpg",
       "PackagePath": "staticwebassets\\images\\pexels-nazila-21345908copy.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-1845534.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-1845534.jpeg",
       "PackagePath": "staticwebassets\\images\\pexels-photo-1845534.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-2221879.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-2221879.jpeg",
       "PackagePath": "staticwebassets\\images\\pexels-photo-2221879.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-3443934.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-3443934.jpeg",
       "PackagePath": "staticwebassets\\images\\pexels-photo-3443934.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-3572989.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-3572989.jpeg",
       "PackagePath": "staticwebassets\\images\\pexels-photo-3572989.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-8664598.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-8664598.jpeg",
       "PackagePath": "staticwebassets\\images\\pexels-photo-8664598.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-8703831.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-8703831.jpeg",
       "PackagePath": "staticwebassets\\images\\pexels-photo-8703831.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-9136322.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-9136322.jpeg",
       "PackagePath": "staticwebassets\\images\\pexels-photo-9136322.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-929282.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-photo-929282.jpeg",
       "PackagePath": "staticwebassets\\images\\pexels-photo-929282.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-pixabay-220453.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-pixabay-220453.jpg",
       "PackagePath": "staticwebassets\\images\\pexels-pixabay-220453.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-todd-trapani-3790058.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-todd-trapani-3790058.jpg",
       "PackagePath": "staticwebassets\\images\\pexels-todd-trapani-3790058.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-toms-monteiro-4107897.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexels-toms-monteiro-4107897.jpg",
       "PackagePath": "staticwebassets\\images\\pexels-toms-monteiro-4107897.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto1130839.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto1130839.png",
       "PackagePath": "staticwebassets\\images\\pexelsphoto1130839.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto1201673.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto1201673.jpg",
       "PackagePath": "staticwebassets\\images\\pexelsphoto1201673.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto1770803.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto1770803.jpg",
       "PackagePath": "staticwebassets\\images\\pexelsphoto1770803.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto305241.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto305241.png",
       "PackagePath": "staticwebassets\\images\\pexelsphoto305241.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto906052.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto906052.jpg",
       "PackagePath": "staticwebassets\\images\\pexelsphoto906052.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto965324.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto965324.jpg",
       "PackagePath": "staticwebassets\\images\\pexelsphoto965324.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto972325.png",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\pexelsphoto972325.png",
       "PackagePath": "staticwebassets\\images\\pexelsphoto972325.png"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1432139509613-5c4255815697.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1432139509613-5c4255815697.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1432139509613-5c4255815697.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1463100099107-aa0980c362e6.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1463100099107-aa0980c362e6.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1463100099107-aa0980c362e6.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1473216635433-38f7100ae658.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1473216635433-38f7100ae658.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1473216635433-38f7100ae658.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1479936343636-73cdc5aae0c3.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1479936343636-73cdc5aae0c3.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1479936343636-73cdc5aae0c3.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1487958449943-2429e8be8625.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1487958449943-2429e8be8625.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1487958449943-2429e8be8625.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1491545437994-ebc9551b87d7.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1491545437994-ebc9551b87d7.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1491545437994-ebc9551b87d7.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1495385794356-15371f348c31.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1495385794356-15371f348c31.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1495385794356-15371f348c31.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1498429089284-41f8cf3ffd39.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1498429089284-41f8cf3ffd39.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1498429089284-41f8cf3ffd39.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1499796683658-b659bc751db1.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1499796683658-b659bc751db1.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1499796683658-b659bc751db1.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1506152983158-b4a74a01c721.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1506152983158-b4a74a01c721.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1506152983158-b4a74a01c721.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1510289244640-fbd33875a761.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1510289244640-fbd33875a761.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1510289244640-fbd33875a761.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1544957992-20514f595d6f.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1544957992-20514f595d6f.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1544957992-20514f595d6f.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1546198632-9ef6368bef12.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1546198632-9ef6368bef12.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1546198632-9ef6368bef12.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1556740772-1a741367b93e.jpeg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\photo-1556740772-1a741367b93e.jpeg",
       "PackagePath": "staticwebassets\\images\\photo-1556740772-1a741367b93e.jpeg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\picture-frame-by-velvet-armchair.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\picture-frame-by-velvet-armchair.jpg",
       "PackagePath": "staticwebassets\\images\\picture-frame-by-velvet-armchair.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\poster-mockup-with-vertical-fram.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\poster-mockup-with-vertical-fram.jpg",
       "PackagePath": "staticwebassets\\images\\poster-mockup-with-vertical-fram.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\restaurant-with-green-wall-woode.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\restaurant-with-green-wall-woode.jpg",
       "PackagePath": "staticwebassets\\images\\restaurant-with-green-wall-woode.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\rtrtrtrt.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\rtrtrtrt.jpg",
       "PackagePath": "staticwebassets\\images\\rtrtrtrt.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\rtttr.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\rtttr.jpg",
       "PackagePath": "staticwebassets\\images\\rtttr.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\trtrt.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\trtrt.jpg",
       "PackagePath": "staticwebassets\\images\\trtrt.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\uuu8.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\uuu8.jpg",
       "PackagePath": "staticwebassets\\images\\uuu8.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\xz.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\xz.jpg",
       "PackagePath": "staticwebassets\\images\\xz.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\yoga.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\yoga.jpg",
       "PackagePath": "staticwebassets\\images\\yoga.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\images\\young-woman-arranging-table-rest.jpg",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\images\\young-woman-arranging-table-rest.jpg",
       "PackagePath": "staticwebassets\\images\\young-woman-arranging-table-rest.jpg"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\js\\infinite-scroll.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\js\\infinite-scroll.js",
       "PackagePath": "staticwebassets\\js\\infinite-scroll.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\js\\nicepage.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\js\\nicepage.js",
       "PackagePath": "staticwebassets\\js\\nicepage.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\user\\職訓-宏碁班\\專案\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Project_PicturesGalleryPlatform.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Project_PicturesGalleryPlatform.Microsoft.AspNetCore.StaticWebAssets.props",
