@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Drawing;
 using System.IO;
 
-namespace Project_PicturesGalleryPlatform.Models.Upload
+namespace Project_PicturesGalleryPlatform.Models.UploadModel
 {
     public class UserUpload
     {
@@ -14,19 +14,40 @@ namespace Project_PicturesGalleryPlatform.Models.Upload
         string? OriPath;
         int PicWidth;
         int PicHeight;
+
+
+
+        /// <summary>
+        /// 用戶端回傳之資料安全驗證
+        /// </summary>
+        /// <returns>返回包含所有錯誤訊息的List</returns>
+        public string DataCheck(pictureInformation data)
+        {
+            
+            ValidationContext context = new (data, serviceProvider: null, items: null);
+            var validationResults = new List<ValidationResult>();
+            bool isValid = Validator.TryValidateObject(data, context, validationResults, true);
+            string result = null;
+            if (isValid) { Console.WriteLine("用戶資料有效"); } 
+            else 
+            { 
+                foreach (var validationResult in validationResults) 
+                {
+                    result += validationResult.ErrorMessage + "\n";
+                    Console.WriteLine(validationResult.ErrorMessage); 
+                }
+            }
+            return result;
+        }
+
+
+
         /// <summary>
         /// 圖片檔寫入
         /// </summary>
         /// <returns></returns>
         public async Task SaveUploadedFile(pictureInformation data)
         {
-            //// 驗證
-            if (_dataCheck(data).Count != 0)
-            {
-                //// 將錯誤訊息返回前端
-                return;
-            }
-
             IFormFile file = data.file;
             //// 取得檔名
             var fileName = Path.GetFileName(file.FileName);
@@ -74,6 +95,8 @@ namespace Project_PicturesGalleryPlatform.Models.Upload
                         else { pictureId = Convert.ToInt32(result) + 1; }
                     }
                     //// 再將資料插入
+                    
+                    goto skipInsert;// *測試用，之後要刪掉
                     commandString = @"INSERT INTO Pictures(id, title, tag, width, height) VALUES(@id, @title, @tag, @width, @height)";
                     using (SqlCommand sqlCommand = new(commandString, sqlConnection))
                     {
@@ -85,6 +108,9 @@ namespace Project_PicturesGalleryPlatform.Models.Upload
 
                         sqlCommand.ExecuteNonQuery();
                     }
+                    skipInsert:
+                    Console.WriteLine("測試中，跳過資料庫寫入");
+
                     //// *圖片移動至正確路徑(我們需要正式決定一下圖片儲存的位置
                     //// 將圖片名稱改以ID命名
                     var newpath = Path.Combine(this.foldpath, pictureId + ".jpg");//// 要修改路徑、副檔名
@@ -102,29 +128,8 @@ namespace Project_PicturesGalleryPlatform.Models.Upload
                     Console.WriteLine("General Exception: " + ex.Message);
                     return false;
                 }
-                //// *錯誤訊息回饋到前端
             }
-        }
-
-
-        /// <summary>
-        /// 用戶端回傳之資料安全驗證
-        /// </summary>
-        /// <returns>返回包含所有錯誤訊息的List</returns>
-        private static List<ValidationResult> _dataCheck(pictureInformation data)
-        {
-            
-            ValidationContext context = new (data, serviceProvider: null, items: null);
-            var validationResults = new List<ValidationResult>();
-            bool isValid = Validator.TryValidateObject(data, context, validationResults, true);
-            if (isValid) { Console.WriteLine("用戶資料有效"); } 
-            else 
-            { 
-                foreach (var validationResult in validationResults) { Console.WriteLine(validationResult.ErrorMessage); } 
-            }
-            return validationResults;
         }
             //// *資料安全驗證 錯誤攔截 程式碼整理
     }
-
 }

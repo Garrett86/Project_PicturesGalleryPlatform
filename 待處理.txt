@@ -1,0 +1,3 @@
+首頁分類圖片按鈕沒有接好
+連接Upload_transition頁面
+調整controller流程
