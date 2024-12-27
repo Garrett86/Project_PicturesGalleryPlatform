@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\lccent_Project\\Project_PicturesGalleryPlatform_Ver1.3\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj": {}
+    "C:\\Users\\USER\\Desktop\\lccent_Project\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform_Ver1.5\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\lccent_Project\\Project_PicturesGalleryPlatform_Ver1.3\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj": {
+    "C:\\Users\\USER\\Desktop\\lccent_Project\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform_Ver1.5\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\lccent_Project\\Project_PicturesGalleryPlatform_Ver1.3\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\lccent_Project\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform_Ver1.5\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj",
         "projectName": "Project_PicturesGalleryPlatform",
-        "projectPath": "C:\\Users\\USER\\Desktop\\lccent_Project\\Project_PicturesGalleryPlatform_Ver1.3\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\lccent_Project\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform_Ver1.5\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\lccent_Project\\Project_PicturesGalleryPlatform_Ver1.3\\Project_PicturesGalleryPlatform\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\lccent_Project\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform_Ver1.5\\Project_PicturesGalleryPlatform\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,6 +52,10 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.2.2, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

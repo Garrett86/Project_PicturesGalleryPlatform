@@ -36,5 +36,11 @@ namespace Project_PicturesGalleryPlatform.Services
             _currentImageResults = _imageRepository.GetAccountsById(id);
             return _currentImageResults;
         }
+
+        public List<ImageDetails> GetAccountsByTag(string tag)
+        {
+            _currentImageResults = _imageRepository.GetImagesByTag(tag);
+            return _currentImageResults;
+        }
     }
 }

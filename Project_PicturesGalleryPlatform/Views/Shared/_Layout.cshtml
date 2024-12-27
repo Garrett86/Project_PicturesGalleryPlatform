@@ -39,6 +39,14 @@
     @RenderSection("Styles", false)
 </head>
 
+@{
+    var str1 = "抽象";
+    var str2 = "抽象";
+    var str3 = "抽象";
+    var str4 = "抽象";
+    var str5 = "抽象";
+}
+
 <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="true"
       class="u-body u-xl-mode" data-lang="en">
     <header class="u-clearfix u-header u-header" id="sec-88ad">
@@ -79,19 +87,19 @@
                             <div class="u-nav-popup">
                                 <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                     <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link u-white" asp-area="" asp-controller="Food" asp-action="Food">食物</a>
+                                        <a class="u-button-style u-nav-link u-white" asp-area="" asp-controller="Page" asp-action="SearchTag" asp-route-tag="@str1">食物</a>
                                     </li>
                                     <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link u-white" asp-area="" asp-controller="Tech" asp-action="Tech">科技</a>
+                                        <a class="u-button-style u-nav-link u-white" asp-area="" asp-controller="Page" asp-action="SearchTag" asp-route-tag="@str2">科技</a>
                                     </li>
                                     <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link u-white" asp-area="" asp-controller="Animal" asp-action="Animal">動物</a>
+                                        <a class="u-button-style u-nav-link u-white" asp-area="" asp-controller="Page" asp-action="SearchTag" asp-route-tag="@str3">美妝</a>
                                     </li>
                                     <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link u-white" asp-area="" asp-controller="Scenery" asp-action="Scenery">風景</a>
+                                        <a class="u-button-style u-nav-link u-white" asp-area="" asp-controller="Page" asp-action="SearchTag" asp-route-tag="@str4">風景</a>
                                     </li>
                                     <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link u-white" asp-area="" asp-controller="People" asp-action="People">人物</a>
+                                        <a class="u-button-style u-nav-link u-white" asp-area="" asp-controller="Page" asp-action="SearchTag" asp-route-tag="@str5">抽象</a>
                                     </li>
                                 </ul>
                             </div>
@@ -132,19 +140,19 @@
                                     <div class="u-nav-popup">
                                         <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
                                             <li class="u-nav-item">
-                                                <a class="u-button-style u-nav-link" asp-area="" asp-controller="Food" asp-action="Food">食物</a>
+                                                <a class="u-button-style u-nav-link" asp-area="" asp-controller="Page" asp-action="SearchTag" asp-route-tag="@str1">食物</a>
                                             </li>
                                             <li class="u-nav-item">
-                                                <a class="u-button-style u-nav-link" asp-area="" asp-controller="Tech" asp-action="Tech">科技</a>
+                                                <a class="u-button-style u-nav-link" asp-area="" asp-controller="Page" asp-action="SearchTag" asp-route-tag="@str2">科技</a>
                                             </li>
                                             <li class="u-nav-item">
-                                                <a class="u-button-style u-nav-link" asp-area="" asp-controller="Animal" asp-action="Animal">動物</a>
+                                                <a class="u-button-style u-nav-link" asp-area="" asp-controller="Page" asp-action="SearchTag" asp-route-tag="@str3">美妝</a>
                                             </li>
                                             <li class="u-nav-item">
-                                                <a class="u-button-style u-nav-link" asp-area="" asp-controller="Scenery" asp-action="Scenery">風景</a>
+                                                <a class="u-button-style u-nav-link" asp-area="" asp-controller="Page" asp-action="SearchTag" asp-route-tag="@str4">風景</a>
                                             </li>
                                             <li class="u-nav-item">
-                                                <a class="u-button-style u-nav-link" asp-area="" asp-controller="People" asp-action="People">人物</a>
+                                                <a class="u-button-style u-nav-link" asp-area="" asp-controller="Page" asp-action="SearchTag" asp-route-tag="@str5">抽象</a>
                                             </li>
                                         </ul>
                                     </div>

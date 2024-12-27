@@ -7,7 +7,7 @@ namespace Project_PicturesGalleryPlatform.Services
         List<ImageDetails> GetRandomImages();
         List<ImageDetails> GetImagesByKeyword(string keyword);
         List<ImageDetails> GetImagesByPage(int page, int pageSize);
-
         List<ImageDetails> GetAccountsById(int id);
+        List<ImageDetails> GetAccountsByTag(string tag);
     }
 }

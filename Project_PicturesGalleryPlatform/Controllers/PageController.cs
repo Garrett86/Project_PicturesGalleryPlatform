@@ -14,11 +14,24 @@ namespace Project_PicturesGalleryPlatform.Controllers
             _imageService = imageService;
         }
 
+        //點擊單照片
         public IActionResult PictureInfo(int id)
         {
             var pictures = _imageService.GetAccountsById(id);
             ViewData["picture"] = pictures;
             return View();
+        }
+
+        //搜尋類別
+        public IActionResult SearchTag(String tag)
+        {
+            if (string.IsNullOrWhiteSpace(tag))
+            {
+                return View("Index", _imageService.GetRandomImages());
+            }
+            ViewData["tag"] = tag;
+            var images = _imageService.GetAccountsByTag(tag);
+            return View("../Page/Pagination");
         }
     }
 }
