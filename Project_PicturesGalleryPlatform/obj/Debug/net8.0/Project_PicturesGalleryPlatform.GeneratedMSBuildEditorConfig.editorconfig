@@ -9,97 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Project_PicturesGalleryPlatform
 build_property.RootNamespace = Project_PicturesGalleryPlatform
-build_property.ProjectDir = C:\Users\USER\Documents\GitHub\Project_PicturesGalleryPlatform_Ver1.1\Project_PicturesGalleryPlatform\
+build_property.ProjectDir = C:\Users\USER\Documents\GitHub\Project_PicturesGalleryPlatform\Project_PicturesGalleryPlatform\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\USER\Documents\GitHub\Project_PicturesGalleryPlatform_Ver1.1\Project_PicturesGalleryPlatform
+build_property.MSBuildProjectDirectory = C:\Users\USER\Documents\GitHub\Project_PicturesGalleryPlatform\Project_PicturesGalleryPlatform
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Animal/Animal.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Animal/Animal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsXEFuaW1hbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Backup/Backup.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Backup/Backup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFja3VwXEJhY2t1cC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Food/Food.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Food/Food.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxGb29kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Home/Index.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Login/Login.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Member/Member.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Member/Member.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXE1lbWJlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Member/MemberModify.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Member/MemberModify.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXE1lbWJlck1vZGlmeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Other/Thank-you-page.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Other/Thank-you-page.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3RoZXJcVGhhbmsteW91LXBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Page/PictureInfo.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Page/PictureInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxQaWN0dXJlSW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Page/Result.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Page/Result.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxSZXN1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/People/People.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/People/People.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXFBlb3BsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/PicShopping/PicShopping.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/PicShopping/PicShopping.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGljU2hvcHBpbmdcUGljU2hvcHBpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Register/Register.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Register/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Scenery/Scenery.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Scenery/Scenery.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NlbmVyeVxTY2VuZXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Shared/Error.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/SinglePic/SinglePic.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/SinglePic/SinglePic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGljXFNpbmdsZVBpYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Tech/Tech.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Tech/Tech.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaFxUZWNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/_ViewImports.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/_ViewStart.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform_Ver1.1/Project_PicturesGalleryPlatform/Views/Shared/_Layout.cshtml]
+[C:/Users/USER/Documents/GitHub/Project_PicturesGalleryPlatform/Project_PicturesGalleryPlatform/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gf0ii9oyy1

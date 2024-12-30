@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj": {}
+    "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj": {
+    "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj",
         "projectName": "Project_PicturesGalleryPlatform",
-        "projectPath": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj",
+        "projectPath": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform_Ver1.1\\Project_PicturesGalleryPlatform\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\GitHub\\Project_PicturesGalleryPlatform\\Project_PicturesGalleryPlatform\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
