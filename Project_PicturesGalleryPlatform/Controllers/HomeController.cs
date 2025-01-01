@@ -40,6 +40,8 @@ namespace Project_PicturesGalleryPlatform.Controllers
 
         }
 
+
+
         public JsonResult GetImagesByPage(int page, int pageSize)
         {
             if (page < 0 || pageSize <= 0)

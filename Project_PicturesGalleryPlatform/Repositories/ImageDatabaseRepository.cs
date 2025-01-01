@@ -8,6 +8,7 @@ namespace Project_PicturesGalleryPlatform.Repositories
     {
         //private const string ConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Database=Images;User ID=Test;Password=12345678;Trusted_Connection=True";
         private readonly string ConnectionString = "Server=tcp:test241214.database.windows.net,1433;Initial Catalog=Test;Persist Security Info=False;User ID=test;Password=Abcd1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        //private readonly string ConnectionString = "Server=tcp:group1project.database.windows.net,1433;Initial Catalog=PicturesGallery;Persist Security Info=False;User ID=manager;Password=Abcd1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
         private List<ImageDetails> ExecuteQuery(string sqlQuery, object parameters = null)
         {
@@ -36,10 +37,16 @@ namespace Project_PicturesGalleryPlatform.Repositories
             return ExecuteQuery(sqlQuery, new { Id = id });
         }
 
-        public List<ImageDetails> GetImagesByTheme(string theme)
+        public List<ImageDetails> GetImagesByIds(string ids)
         {
-            var sqlQuery = "SELECT * FROM Pictures WHERE theme = @Theme";
-            return ExecuteQuery(sqlQuery, new { Theme = theme });
+            var idList = ids.Split(' ').Select(int.Parse).ToList();
+            var sqlQuery = "SELECT * FROM Pictures WHERE id IN @Ids";
+            return ExecuteQuery(sqlQuery, new { Ids = idList });
+        }
+        public List<ImageDetails> GetImagesByTag(string tag)
+        {
+            var sqlQuery = "SELECT * FROM Pictures WHERE tag = @Tag";
+            return ExecuteQuery(sqlQuery, new { Tag = tag });
         }
 
         public List<ImageDetails> GetAccountsById(int id)

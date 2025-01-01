@@ -1,0 +1,3 @@
+input[type="file"] {
+    display: none; /* 隱藏預設的文件選擇框 */
+}

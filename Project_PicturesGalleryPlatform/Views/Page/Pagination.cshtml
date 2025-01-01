@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Home Page";
 
 }
@@ -11,10 +10,10 @@
     <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <h2 class="u-align-center u-text u-text-default u-text-1" data-animation-name="customAnimationIn"
             data-animation-duration="1500">
-            @ViewData["keyword"]圖片
+            @ViewData["tag"]
         </h2>
         <div class="u-expanded-width u-list u-list-1">
-            <div class="u-repeater u-repeater-1" id="imageResultsContainer" data-url="@Url.Action("GetImagesByPage", "Home")" >
+            <div class="u-repeater u-repeater-1" id="imageResultsContainer" data-url="@Url.Action("GetImagesByPage", "Home")">
             </div>
         </div>
         <p class="u-align-center u-text u-text-26" data-animation-name="customAnimationIn" data-animation-duration="1500"
@@ -28,142 +27,142 @@
 </section>
 <style>
     .u-dialog-section-9 .u-dialog-1 {
-        width: 570px;
-        min-height: 578px;
-        height: auto;
-        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
-        margin: 60px auto;
+      width: 570px;
+      min-height: 578px;
+      height: auto;
+      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+      margin: 60px auto;
     }
 
     .u-dialog-section-9 .u-container-layout-1 {
-        padding: 34px 35px;
+      padding: 34px 35px;
     }
 
     .u-dialog-section-9 .u-text-1 {
-        font-weight: 700;
-        margin: 0 165px 0 0;
+      font-weight: 700;
+      margin: 0 165px 0 0;
     }
 
     .u-dialog-section-9 .u-products-1 {
-        margin-top: 30px;
-        margin-bottom: 0;
+      margin-top: 30px;
+      margin-bottom: 0;
     }
 
     .u-dialog-section-9 .u-repeater-1 {
-        grid-template-columns: 100%;
-        min-height: 206px;
-        grid-gap: 10px;
+      grid-template-columns: 100%;
+      min-height: 206px;
+      grid-gap: 10px;
     }
 
     .u-dialog-section-9 .u-container-layout-2 {
-        padding: 0 0 30px;
+      padding: 0 0 30px;
     }
 
     .u-dialog-section-9 .u-text-2 {
-        background-image: none;
-        margin: 0;
+      background-image: none;
+      margin: 0;
     }
 
     .u-dialog-section-9 .u-text-3 {
-        font-size: 0.875rem;
-        margin: 20px 0 0;
+      font-size: 0.875rem;
+      margin: 20px 0 0;
     }
 
     .u-dialog-section-9 .u-product-quantity-1 {
-        width: 125px;
-        margin: 30px auto 0 0;
+      width: 125px;
+      margin: 30px auto 0 0;
     }
 
     .u-dialog-section-9 .u-product-price-1 {
-        margin: -34px 0 0 auto;
+      margin: -34px 0 0 auto;
     }
 
     .u-dialog-section-9 .u-payment-services-1 {
-        min-height: 250px;
-        min-width: 50px;
-        margin: 0;
+      min-height: 250px;
+      min-width: 50px;
+      margin: 0;
     }
 
     .u-dialog-section-9 .u-container-layout-3 {
-        padding: 20px 0 0;
+      padding: 20px 0 0;
     }
 
     .u-dialog-section-9 .u-container-layout-4 {
-        padding: 20px 0 0;
+      padding: 20px 0 0;
     }
 
     .u-dialog-section-9 .u-btn-1 {
-        width: 100%;
-        margin: 0 auto;
+      width: 100%;
+      margin: 0 auto;
     }
 
     .u-dialog-section-9 .u-icon-1 {
-        width: 20px;
-        height: 20px;
-        left: auto;
-        top: 36px;
-        position: absolute;
-        right: 35px;
-        padding: 0;
+      width: 20px;
+      height: 20px;
+      left: auto;
+      top: 36px;
+      position: absolute;
+      right: 35px;
+      padding: 0;
     }
 
     @@media (max-width: 1199px) {
-        .u-dialog-section-9 .u-text-1 {
-            margin-right: 165px;
-        }
+      .u-dialog-section-9 .u-text-1 {
+        margin-right: 165px;
+      }
 
-        .u-dialog-section-9 .u-payment-services-1 {
-            margin-right: initial;
-            margin-left: initial;
-        }
+      .u-dialog-section-9 .u-payment-services-1 {
+        margin-right: initial;
+        margin-left: initial;
+      }
     }
 
     @@media (max-width: 991px) {
-        .u-dialog-section-9 .u-container-layout-1 {
-            padding: 30px;
-        }
+      .u-dialog-section-9 .u-container-layout-1 {
+        padding: 30px;
+      }
 
-        .u-dialog-section-9 .u-container-layout-3 {
-            padding-bottom: 0;
-            padding-left: 0;
-            padding-right: 0;
-        }
+      .u-dialog-section-9 .u-container-layout-3 {
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+      }
 
-        .u-dialog-section-9 .u-container-layout-4 {
-            padding-bottom: 0;
-            padding-left: 0;
-            padding-right: 0;
-        }
+      .u-dialog-section-9 .u-container-layout-4 {
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+      }
 
-        .u-dialog-section-9 .u-icon-1 {
-            top: 32px;
-            right: 30px;
-        }
+      .u-dialog-section-9 .u-icon-1 {
+        top: 32px;
+        right: 30px;
+      }
     }
 
     @@media (max-width: 767px) {
-        .u-dialog-section-9 .u-dialog-1 {
-            width: 540px;
-        }
+      .u-dialog-section-9 .u-dialog-1 {
+        width: 540px;
+      }
     }
 
     @@media (max-width: 575px) {
-        .u-dialog-section-9 .u-dialog-1 {
-            width: 340px;
-        }
+      .u-dialog-section-9 .u-dialog-1 {
+        width: 340px;
+      }
 
-        .u-dialog-section-9 .u-container-layout-1 {
-            padding-left: 20px;
-            padding-right: 20px;
-        }
+      .u-dialog-section-9 .u-container-layout-1 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
 
-        .u-dialog-section-9 .u-text-1 {
-            margin-right: 5px;
-        }
+      .u-dialog-section-9 .u-text-1 {
+        margin-right: 5px;
+      }
 
-        .u-dialog-section-9 .u-icon-1 {
-            right: 20px;
-        }
+      .u-dialog-section-9 .u-icon-1 {
+        right: 20px;
+      }
     }
 </style>
 @section Scripts {

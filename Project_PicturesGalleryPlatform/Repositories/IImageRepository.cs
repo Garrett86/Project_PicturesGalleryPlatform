@@ -7,7 +7,8 @@ namespace Project_PicturesGalleryPlatform.Repositories
         List<ImageDetails> GetRandomImages();
         List<ImageDetails> GetImagesByKeyword(string keyword);
         List<ImageDetails> GetRelatedImages(int id);
-        List<ImageDetails> GetImagesByTheme(string theme);
+        List<ImageDetails> GetImagesByIds(string ids);
+        List<ImageDetails> GetImagesByTag(string tag);
         List<ImageDetails> GetAccountsById(int id);
     }
 }

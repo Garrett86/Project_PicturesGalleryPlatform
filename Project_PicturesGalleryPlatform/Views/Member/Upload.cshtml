@@ -1,0 +1,91 @@
+@model Project_PicturesGalleryPlatform.Models.UploadModel.pictureInformation;
+
+<h2>上傳您的圖片</h2>
+<h4>上傳您的圖片到圖庫平台，供其他使用者下載使用</h4>
+
+
+@using (Html.BeginForm("Upload", "Member", FormMethod.Post, new { enctype = "multipart/form-data", id = "uploadForm" }))
+{
+    @* <div asp-validation-summary="All" class="text-danger"></div> *@
+
+    <p>↓↓選擇要上傳的圖片</p>
+    <input type="file" name="file" id="fileInput" />
+    <span asp-validation-for="file" class="text-danger" style="color: red"></span>
+    <br />
+    <p>
+        請輸入圖片標題
+        @Html.TextBoxFor(m => m.title)
+        <span asp-validation-for="title" class="text-danger" style="color: red"></span>
+    </p>
+    <p>
+        請輸入圖片tag標籤
+        @Html.TextBoxFor(m => m.tag)
+        <span asp-validation-for="tag" class="text-danger" style="color: red"></span>
+    </p>
+    <input type="submit" value="上傳" />
+}
+
+@if (TempData["triggerAlert"] != null && (bool)TempData["triggerAlert"])
+{
+    <script>
+        var feedbackMessage = @Html.Raw(Json.Serialize(TempData["uploadFeedback"]));
+        alert(feedbackMessage);
+    </script>
+}
+
+
+@* <button onclick="testJs()">測試</button>
+<script>
+    function testJs() {
+        alert("test");
+    }
+</script> *@
+
+
+<img id="uploadedImage" src="" alt="Uploaded Image" style="max-width: 1500px; max-height: auto; display: none;">
+
+<script>
+    // 上傳圖片時，預覽圖片
+    document.addEventListener('DOMContentLoaded', function () {
+        const fileInput = document.getElementById('fileInput');
+        const uploadForm = document.getElementById('uploadForm');
+
+        if (fileInput) {
+            fileInput.addEventListener('change', function (event) {
+                const file = event.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        const image = document.getElementById('uploadedImage');
+                        image.src = e.target.result;
+                        image.style.display = 'block';
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+        }
+        if (uploadForm) {
+            uploadForm.addEventListener('submit', function (event) {
+                // event.preventDefault();
+                // 您可以在此處添加上傳文件到伺服器的代碼
+            });
+        }
+    });
+</script>
+
+
+
+@* <form asp-controller ="Member" asp-action="Upload" enctype="multipart/form-data" id="uploadForm">
+    <p>↓↓選擇要上傳的圖片</p>
+    <input type="file" name="file" id="fileInput" /><br />
+    <p>
+        請輸入圖片標題
+        <input type="text" name="title" />
+    </p>
+    <p>
+        請輸入圖片tag標籤
+        <input type="text" name="tag" />
+    </p>
+    <input type="submit" value="上傳" onclick="alert_uploadFeedback" />
+</form>
+<br />*@

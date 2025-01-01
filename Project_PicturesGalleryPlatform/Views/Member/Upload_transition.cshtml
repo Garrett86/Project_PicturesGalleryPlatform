@@ -1,0 +1,11 @@
+﻿@{
+    // if (TempData["triggerAlert"] != null && (bool)TempData["triggerAlert"])
+    if (true)
+    {
+        <script type="text/javascript">
+            var feedbackMessage = @Html.Raw(Json.Serialize(TempData["uploadFeedback"]));
+            alert(feedbackMessage);
+            window.location.href = '@Url.Action(TempData["action"]+"", TempData["controller"]+"")';
+        </script>
+    }
+}
