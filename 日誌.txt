@@ -1,0 +1,11 @@
+2024/12/24 上傳功能大致連接完成。接下來要處理將錯誤訊息回報前端 by永旭
+
+2024/12/26 alert功能成形 還沒接好 by永旭
+
+2024/12/27 資料夾整理 by凱鴻
+2024/12/27 Upload_transition 都接好了 流程調整得更順暢 by永旭
+
+2024/12/30 嘗試合併Garret&jonathan。目前沒問題。/
+	   合併tzuchun，內容還沒調整完，有點問題 by永旭
+
+2025/1/1 develop併入master(squash and merge)
