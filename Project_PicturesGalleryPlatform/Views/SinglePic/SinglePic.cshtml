@@ -1,9 +1,11 @@
 ﻿@{
+    var userAccount = ViewData["user"];
     var pictures = ViewData["picture"] as List<ImageDetails>;
 }
 
 <head>
     <link rel="stylesheet" href="~/css/singlePic.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <style>
@@ -31,8 +33,9 @@
     }
 
     .btn-n2{
+        width: 175px;
         margin: -55px 190px 0 auto !important;
-        padding: 13px 42px !important;
+        padding: 13px 0 !important;
     }
 
     .u-btn-3{
@@ -47,6 +50,39 @@
         margin: -55px 150px 0 1070px !important;
         padding: 13px 53px !important;
     }
+
+    .star-rating {
+        display: flex;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+        .star-rating i {
+            font-size: 2rem;
+            /*color: gray;*/
+            transition: color 0.2s;
+        }
+
+            .star-rating i.filled {
+                /*color: gold;*/
+            }
+
+        .star-rating i {
+            cursor: pointer;
+            color: #ffcc00; /* 星星顏色 */
+        }
+
+            .star-rating i.fas {
+                color: #ffcc00; /* 實心星星的顏色 */
+            }
+
+            .star-rating i.far {
+                color: #ccc; /* 空心星星的顏色 */
+            }
+            .btn-rating{
+                position:relative;
+                left: 65px
+            }
 </style>
 
 @if (pictures != null && pictures.Any())
@@ -55,41 +91,36 @@
     {
         <section class="u-clearfix u-section-1" id="sec-3197">
             <div class="u-clearfix u-sheet u-sheet-1">
-                <!--product--><!--product_options_json--><!--{"source":"5"}--><!--/product_options_json-->
-                <div class="u-container-style u-expanded-width u-product u-product-1"
-                     data-products-datasource="site"
-                     data-product-id="5">
+                <div class="u-container-style u-expanded-width u-product u-product-1" data-products-datasource="site" data-product-id="@pic.id">
                     <div class="u-container-layout u-container-layout-1">
-                        <!--product_image-->
-                        <img alt=""
+                        <!-- 顯示圖片 -->
+                        <img alt="@pic.tag"
                              class="u-image u-image-contain u-image-default u-product-control u-image-1 dialog"
-                             src="@pic.url" /><!--/product_image--><!--product_title-->
-                        <div id="img_large" style="display:none; text-align:center;  position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(25,25,25,0.7);">
+                             src="@Url.Content("~/images2/" + pic.id + ".webp")" />
+
+                        <div id="img_large" style="display:none; text-align:center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(25,25,25,0.7);">
                             <img id="large_image" src="" alt="Large Image" style="max-width: 80%; max-height: 80%; border: 3px solid #ccc; margin-top: 5%;" />
                         </div>
                         <h2 class="u-product-control u-text u-text-default u-text-1">
                             @pic.tag
                         </h2>
-                        <!--/product_title--><!--product_price-->
-                        <div data-add-zero-cents="true"
-                             class="u-product-control u-product-price u-product-price-1">
+
+                        <div data-add-zero-cents="true" class="u-product-control u-product-price u-product-price-1">
                             <div class="u-price-wrapper u-spacing-10">
-                                <!--product_old_price-->
-                                <div class="u-old-price"
-                                     style="text-decoration: line-through !important">
-                                    $10.00
+                                <div data-product-id="@pic.id" class="u-price u-text-palette-2-base star-rating" style="font-size: 1.5rem; font-weight: 700">
+                                    <i class="far fa-star" data-value="1"></i>
+                                    <i class="far fa-star" data-value="2"></i>
+                                    <i class="far fa-star" data-value="3"></i>
+                                    <i class="far fa-star" data-value="4"></i>
+                                    <i class="far fa-star" data-value="5"></i>
                                 </div>
-                                <!--/product_old_price--><!--product_regular_price-->
-                                <div class="u-price u-text-palette-2-base"
-                                     style="font-size: 1.5rem; font-weight: 700">
-                                    $7.00
-                                </div>
-                                <!--/product_regular_price-->
+                                <button id="submit-rating" class="btn-rating">提交評分</button>
+                                <input type="hidden" name="__RequestVerificationToken" value="@Html.AntiForgeryToken()" />
                             </div>
                         </div>
-                        <!--/product_price-->
+
                         <div class="u-border-3 u-border-grey-dark-1 u-line u-line-horizontal u-line-1"></div>
-                        <!--product_description-->
+
                         <div class="u-product-control u-product-full-desc u-text u-text-2">
                             <span>照片格式</span><br />
                             <span>@pic.width </span>
@@ -97,60 +128,35 @@
                             <span>@pic.height</span>
                             <span>像素</span>
                         </div>
+
                         <div>
-                            <!-- Add to Favorites Button -->
-                            <a href="#sec-2442"
-                               class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-product-control u-btn-1 u-dialog-link u-payment-button btn-n1"
-                               data-animation-name=""
-                               data-animation-duration="0"
-                               data-animation-delay="0"
-                               data-animation-direction=""
-                               data-product-button-click-type="buy-now"
-                               data-product-id="5"
-                               data-product='{"id":"5","name":"-----","title":"圖片的名稱","description":"圖片的敘述","fullDescription":"圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述","price":"7","oldPrice":"10","quantity":1,"currency":"USD","sku":"","outOfStock":false,"isFeatured":false,"categories":[],"images":[{"url":"images/6f461f60.svg"}],"created":1733999548125,"updated":1734357654083,"isDefault":true,"categoriesData":[{"link":"./products/products.html#/1///","title":"Uncategorized"}]}'>
+                            <a href="#sec-2442" class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-product-control u-btn-1 u-dialog-link u-payment-button btn-n1">
                                 加入購物車
                             </a>
 
-                            <!-- Add to Cart Button -->
-                            <a href="#sec-2442"
-                               class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-product-control u-btn-2 btn-n2"
-                               data-animation-name=""
-                               data-animation-duration="0"
-                               data-animation-delay="0"
-                               data-animation-direction=""
-                               data-product-button-click-type="buy-now"
-                               data-product-id="5"
-                               data-product='{"id":"5","name":"-----","title":"圖片的名稱","description":"圖片的敘述","fullDescription":"圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述","price":"7","oldPrice":"10","quantity":1,"currency":"USD","sku":"","outOfStock":false,"isFeatured":false,"categories":[],"images":[{"url":"images/6f461f60.svg"}],"created":1733999548125,"updated":1734357654083,"isDefault":true,"categoriesData":[{"link":"./products/products.html#/1///","title":"Uncategorized"}]}'>
-                                加入我的最愛
+                            <a href="javascript:void(0);" class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-product-control u-btn-2 btn-n2 heart-btn" data-id="@pic.id">
+                                <i class="heart @(pic.isFavorited ? "fas fa-heart" : "far fa-heart")" style="color: red;"></i>
+                                <span>&nbsp;@(pic.isFavorited ? "從我的最愛移除" : "加入我的最愛")</span>
                             </a>
 
-                            <!-- Download Button -->
-                            <a href="@pic.url"
-                               class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-product-control u-btn-3 "
-                               data-animation-name=""
-                               data-animation-duration="0"
-                               data-animation-delay="0"
-                               data-animation-direction=""
-                               data-product-button-click-type="buy-now"
-                               data-product-id="5"
-                               data-product='{"id":"5","name":"-----","title":"圖片的名稱","description":"圖片的敘述","fullDescription":"圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述圖片的敘述","price":"7","oldPrice":"10","quantity":1,"currency":"USD","sku":"","outOfStock":false,"isFeatured":false,"categories":[],"images":[{"url":"images/6f461f60.svg"}],"created":1733999548125,"updated":1734357654083,"isDefault":true,"categoriesData":[{"link":"./products/products.html#/1///","title":"Uncategorized"}]}'>
+                            <a href="@Url.Content("~/images2/" + pic.id + ".webp")" download="@($"{pic.id}.jpg")" class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-product-control u-btn-3 ">
                                 下載
                             </a>
 
-                            <!-- Share Button -->
-                            <div class="a2a_kit a2a_kit_size_32 a2a_default_style u-btn-4" data-a2a-url="@pic.url" title="分享">
+                            <div class="a2a_kit a2a_kit_size_32 a2a_default_style u-btn-4" data-a2a-url="@($"https://localhost:7128/images2/{pic.id}.webp")" title="分享">
                                 <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--/product-->
             </div>
         </section>
     }
 }
 
+
 @section scripts {
+    <script defer src="https://static.addtoany.com/menu/page.js"></script>
     <script>
         $(function () {
             // 點擊圖片顯示大圖
@@ -170,8 +176,9 @@
                 $(this).fadeOut(300);
             });
         });
+
+        var userAccount = '@ViewData["user"]';
+
     </script>
-}
-@{
-    <script defer src="https://static.addtoany.com/menu/page.js"></script>
+    <script src="~/js/PicScore.js" ></script>
 }

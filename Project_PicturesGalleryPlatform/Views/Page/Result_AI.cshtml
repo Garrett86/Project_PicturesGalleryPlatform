@@ -1,0 +1,194 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+    int test = 123;
+    string keyword = TempData["keyword_AI"] + "";
+}
+<head>
+    <link rel="stylesheet" href="~/css/food.css" media="screen">
+</head>
+<section class="u-align-center u-clearfix u-container-align-center u-image u-shading u-section-1" id="sec-c540"
+         data-image-width="1980" data-image-height="1600">
+    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h2 class="u-align-center u-text u-text-default u-text-1" data-animation-name="customAnimationIn"
+            data-animation-duration="1500">
+            @keyword AI生成圖片
+        </h2>
+        <!-- 使用隐藏字段保存 TempData 值 -->
+        <input type="hidden" id="keepKeyword" value="@TempData["keyword_AI"]">
+        <div class="u-expanded-width u-list u-list-1">
+            <div class="u-repeater u-repeater-1" id="imageResultsContainer" data-url="@Url.Action("GenPic", "Page", new{keyword = keyword})" >
+                <!-- 提示: 處理中 -->
+                <div id="loadingOverlay" style="display: none;">
+                    <div class="loading-spinner"></div>
+                    <p>Loading...</p>
+                </div>
+
+            </div>
+            <button id="GenerateMoreButton" class="generate-button">繼續生成AI圖片</button>
+        </div>
+
+        <p class="u-align-center u-text u-text-26" data-animation-name="customAnimationIn" data-animation-duration="1500"
+           data-animation-delay="750">
+            Images from <a href="https://www.freepik.com/"
+                           class="u-border-1 u-border-active-grey-70 u-border-grey-80 u-border-hover-grey-70 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-none u-text-body-color u-btn-13"
+                           target="_blank" data-animation-name="" data-animation-duration="0" data-animation-delay="0"
+                           data-animation-direction="">Freepik</a>
+        </p>
+    </div>
+</section>
+<style>
+    .generate-button {
+        background-color: #f1c40f; /* 按钮背景色 (黄色) */
+        color: #ffffff; /* 按钮文字颜色 (白色) */
+        border: none; /* 无边框 */
+        padding: 10px 20px; /* 内边距 */
+        font-size: 16px; /* 字体大小 */
+        border-radius: 5px; /* 圆角 */
+        cursor: pointer; /* 鼠标指针样式 */
+        transition: all 0.3s ease; /* 添加过渡效果 */
+    }
+
+
+    .u-dialog-section-9 .u-dialog-1 {
+        width: 570px;
+        min-height: 578px;
+        height: auto;
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+        margin: 60px auto;
+    }
+
+    .u-dialog-section-9 .u-container-layout-1 {
+        padding: 34px 35px;
+    }
+
+    .u-dialog-section-9 .u-text-1 {
+        font-weight: 700;
+        margin: 0 165px 0 0;
+    }
+
+    .u-dialog-section-9 .u-products-1 {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .u-dialog-section-9 .u-repeater-1 {
+        grid-template-columns: 100%;
+        min-height: 206px;
+        grid-gap: 10px;
+    }
+
+    .u-dialog-section-9 .u-container-layout-2 {
+        padding: 0 0 30px;
+    }
+
+    .u-dialog-section-9 .u-text-2 {
+        background-image: none;
+        margin: 0;
+    }
+
+    .u-dialog-section-9 .u-text-3 {
+        font-size: 0.875rem;
+        margin: 20px 0 0;
+    }
+
+    .u-dialog-section-9 .u-product-quantity-1 {
+        width: 125px;
+        margin: 30px auto 0 0;
+    }
+
+    .u-dialog-section-9 .u-product-price-1 {
+        margin: -34px 0 0 auto;
+    }
+
+    .u-dialog-section-9 .u-payment-services-1 {
+        min-height: 250px;
+        min-width: 50px;
+        margin: 0;
+    }
+
+    .u-dialog-section-9 .u-container-layout-3 {
+        padding: 20px 0 0;
+    }
+
+    .u-dialog-section-9 .u-container-layout-4 {
+        padding: 20px 0 0;
+    }
+
+    .u-dialog-section-9 .u-btn-1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .u-dialog-section-9 .u-icon-1 {
+        width: 20px;
+        height: 20px;
+        left: auto;
+        top: 36px;
+        position: absolute;
+        right: 35px;
+        padding: 0;
+    }
+
+    @@media (max-width: 1199px) {
+        .u-dialog-section-9 .u-text-1 {
+            margin-right: 165px;
+        }
+
+        .u-dialog-section-9 .u-payment-services-1 {
+            margin-right: initial;
+            margin-left: initial;
+        }
+    }
+
+    @@media (max-width: 991px) {
+        .u-dialog-section-9 .u-container-layout-1 {
+            padding: 30px;
+        }
+
+        .u-dialog-section-9 .u-container-layout-3 {
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .u-dialog-section-9 .u-container-layout-4 {
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .u-dialog-section-9 .u-icon-1 {
+            top: 32px;
+            right: 30px;
+        }
+    }
+
+    @@media (max-width: 767px) {
+        .u-dialog-section-9 .u-dialog-1 {
+            width: 540px;
+        }
+    }
+
+    @@media (max-width: 575px) {
+        .u-dialog-section-9 .u-dialog-1 {
+            width: 340px;
+        }
+
+        .u-dialog-section-9 .u-container-layout-1 {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .u-dialog-section-9 .u-text-1 {
+            margin-right: 5px;
+        }
+
+        .u-dialog-section-9 .u-icon-1 {
+            right: 20px;
+        }
+    }
+</style>
+@section Scripts {
+    <script src="~/js/infinite-scroll-AI.js"></script>
+}

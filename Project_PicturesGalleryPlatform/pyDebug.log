@@ -1,0 +1,530 @@
+2025-01-04 19:55:34,467 - __main__ - DEBUG - pythonScript has execute
+2025-01-04 19:55:34,467 - __main__ - DEBUG - Received arguments: ['1']
+2025-01-04 19:55:55,697 - __main__ - DEBUG - pythonScript has execute
+2025-01-04 19:55:55,697 - __main__ - DEBUG - Received arguments: ['1']
+2025-01-04 20:11:45,199 - __main__ - DEBUG - pythonScript has execute
+2025-01-04 20:11:45,199 - __main__ - DEBUG - Received arguments: ['1']
+2025-01-04 20:19:25,076 - __main__ - DEBUG - pythonScript has execute
+2025-01-04 20:19:25,076 - __main__ - DEBUG - Received arguments: ['1']
+2025-01-05 20:06:23,578 - __main__ - DEBUG - pythonScript has execute
+2025-01-05 20:06:23,578 - __main__ - DEBUG - Received arguments: ['1']
+2025-01-05 20:27:25,481 - __main__ - DEBUG - pythonScript has execute
+2025-01-05 20:27:25,482 - __main__ - DEBUG - Received arguments: ['1']
+2025-01-05 20:37:08,886 - __main__ - DEBUG - pythonScript has execute
+2025-01-05 20:37:08,886 - __main__ - DEBUG - Received arguments: ['大自然', '1']
+2025-01-05 20:37:08,886 - Translate - DEBUG - enter translate_text()
+2025-01-05 20:37:08,887 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-05 20:37:08,887 - __main__ - DEBUG - 翻譯失敗
+2025-01-05 20:37:08,887 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-05 20:37:08,889 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-05 20:37:22,933 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-05 20:37:22,937 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/199a0b44-b598-4bc0-9104-c8cae477b1ef/outputs/output.jpg
+2025-01-05 20:38:08,686 - __main__ - DEBUG - pythonScript has execute
+2025-01-05 20:38:08,686 - __main__ - DEBUG - Received arguments: ['大自然', '1']
+2025-01-05 20:38:08,687 - Translate - DEBUG - enter translate_text()
+2025-01-05 20:38:08,687 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-05 20:38:08,687 - __main__ - DEBUG - 翻譯失敗
+2025-01-05 20:38:08,687 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-05 20:38:08,689 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-05 20:38:12,619 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-05 20:38:12,622 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/fa19dce9-a74f-43a0-b33d-842fb51b93fd/outputs/output.jpg
+2025-01-05 20:56:06,528 - __main__ - DEBUG - pythonScript has execute
+2025-01-05 20:56:06,528 - __main__ - DEBUG - Received arguments: ['大自然', '1']
+2025-01-05 20:56:06,529 - Translate - DEBUG - enter translate_text()
+2025-01-05 20:56:06,529 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-05 20:56:06,542 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-05 20:56:06,544 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-05 20:56:06,547 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-05 20:56:06,686 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-05 20:56:06,689 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-05 20:56:06,820 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-05 20:56:06,821 - Translate - DEBUG - Text: 大自然
+2025-01-05 20:56:06,821 - Translate - DEBUG - Translation: Nature
+2025-01-05 20:56:06,821 - Translate - DEBUG - Detected source language: zh-CN
+
+2025-01-05 20:56:06,821 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-05 20:56:06,823 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-05 20:56:10,873 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-05 20:56:10,876 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/1b86507f-d91a-4692-8ef7-73a73d435c11/outputs/output.jpg
+2025-01-05 20:57:40,980 - __main__ - DEBUG - pythonScript has execute
+2025-01-05 20:57:40,980 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-05 20:57:40,980 - Translate - DEBUG - enter translate_text()
+2025-01-05 20:57:40,980 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-05 20:57:40,991 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-05 20:57:40,993 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-05 20:57:40,996 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-05 20:57:41,151 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-05 20:57:41,153 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-05 20:57:41,271 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-05 20:57:41,272 - Translate - DEBUG - Text: 機器人
+2025-01-05 20:57:41,272 - Translate - DEBUG - Translation: robot
+2025-01-05 20:57:41,272 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-05 20:57:41,272 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-05 20:57:41,273 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-05 20:57:44,945 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-05 20:57:44,947 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/30f6f565-a65a-4e6a-8119-d1a70151d63b/outputs/output.jpg
+2025-01-05 20:58:15,420 - __main__ - DEBUG - pythonScript has execute
+2025-01-05 20:58:15,420 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-05 20:58:15,420 - Translate - DEBUG - enter translate_text()
+2025-01-05 20:58:15,421 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-05 20:58:15,431 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-05 20:58:15,433 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-05 20:58:15,435 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-05 20:58:15,548 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-05 20:58:15,550 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-05 20:58:15,659 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-05 20:58:15,659 - Translate - DEBUG - Text: 機器人
+2025-01-05 20:58:15,659 - Translate - DEBUG - Translation: robot
+2025-01-05 20:58:15,659 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-05 20:58:15,659 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-05 20:58:15,661 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-05 20:58:18,901 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-05 20:58:18,903 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/642623c1-ad44-4185-9363-309966e7e8c7/outputs/output.jpg
+2025-01-06 07:27:24,302 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 07:27:24,302 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 07:27:24,302 - Translate - DEBUG - enter translate_text()
+2025-01-06 07:27:24,303 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 07:27:24,313 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 07:27:24,315 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 07:27:24,317 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 07:27:24,455 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 07:27:24,457 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 07:27:24,590 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 07:27:24,591 - Translate - DEBUG - Text: 機器人
+2025-01-06 07:27:24,591 - Translate - DEBUG - Translation: robot
+2025-01-06 07:27:24,591 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 07:27:24,591 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 07:27:24,593 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 07:27:28,474 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 07:27:28,476 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/66268de7-37b4-4c39-8aa9-62e2ac3ebeac/outputs/output.jpg
+2025-01-06 09:22:34,605 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 09:22:34,605 - __main__ - DEBUG - Received arguments: ['1']
+2025-01-06 10:23:30,020 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 10:23:30,020 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 10:23:30,020 - Translate - DEBUG - enter translate_text()
+2025-01-06 10:23:30,021 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 10:23:30,030 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 10:23:30,032 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 10:23:30,034 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 10:23:30,168 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 10:23:30,170 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 10:23:30,320 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 10:23:30,321 - Translate - DEBUG - Text: 機器人
+2025-01-06 10:23:30,321 - Translate - DEBUG - Translation: robot
+2025-01-06 10:23:30,321 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 10:23:30,321 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 10:23:30,323 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 10:23:33,288 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 10:23:33,291 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/1f70ab83-4890-4ec2-a2a9-5333d554622a/outputs/output.jpg
+2025-01-06 10:23:41,773 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 10:23:41,774 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 10:23:41,774 - Translate - DEBUG - enter translate_text()
+2025-01-06 10:23:41,774 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 10:23:41,784 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 10:23:41,786 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 10:23:41,788 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 10:23:41,910 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 10:23:41,912 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 10:23:42,033 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 10:23:42,033 - Translate - DEBUG - Text: 機器人
+2025-01-06 10:23:42,033 - Translate - DEBUG - Translation: robot
+2025-01-06 10:23:42,034 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 10:23:42,034 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 10:23:42,035 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 10:23:45,598 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 10:23:45,601 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/b3ab3327-056d-4c1f-88d2-f8be16c60c5b/outputs/output.jpg
+2025-01-06 14:30:24,574 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 14:30:24,575 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 14:30:24,575 - Translate - DEBUG - enter translate_text()
+2025-01-06 14:30:24,575 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 14:30:24,586 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 14:30:24,588 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 14:30:24,590 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 14:30:24,722 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 14:30:24,724 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 14:30:24,888 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 14:30:24,889 - Translate - DEBUG - Text: 機器人
+2025-01-06 14:30:24,889 - Translate - DEBUG - Translation: robot
+2025-01-06 14:30:24,889 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 14:30:24,889 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 14:30:24,890 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 14:30:28,325 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 14:30:28,327 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/3e3bfa56-12b3-4e5b-b44a-24431bc9fa28/outputs/output.jpg
+2025-01-06 14:36:27,625 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 14:36:27,625 - __main__ - DEBUG - Received arguments: ['大自然', '1']
+2025-01-06 14:36:27,625 - Translate - DEBUG - enter translate_text()
+2025-01-06 14:36:27,626 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 14:36:27,636 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 14:36:27,638 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 14:36:27,640 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 14:36:27,778 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 14:36:27,781 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 14:36:27,932 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 14:36:27,933 - Translate - DEBUG - Text: 大自然
+2025-01-06 14:36:27,933 - Translate - DEBUG - Translation: Nature
+2025-01-06 14:36:27,933 - Translate - DEBUG - Detected source language: zh-CN
+
+2025-01-06 14:36:27,933 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 14:36:27,934 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 14:36:30,883 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 14:36:30,886 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/23bada42-345e-429d-a8c4-3a325aaaf630/outputs/output.jpg
+2025-01-06 14:57:44,462 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 14:57:44,462 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 14:57:44,462 - Translate - DEBUG - enter translate_text()
+2025-01-06 14:57:44,462 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 14:57:44,472 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 14:57:44,474 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 14:57:44,476 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 14:57:44,624 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 14:57:44,626 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 14:57:44,789 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 14:57:44,790 - Translate - DEBUG - Text: 機器人
+2025-01-06 14:57:44,790 - Translate - DEBUG - Translation: robot
+2025-01-06 14:57:44,790 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 14:57:44,790 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 14:57:44,792 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 14:57:48,078 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 14:57:48,080 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/d4edb52f-e7dc-4533-ad9d-9f0bc3bc4332/outputs/output.jpg
+2025-01-06 14:58:09,164 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 14:58:09,164 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 14:58:09,164 - Translate - DEBUG - enter translate_text()
+2025-01-06 14:58:09,165 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 14:58:09,175 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 14:58:09,176 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 14:58:09,179 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 14:58:09,506 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 14:58:09,510 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 14:58:10,290 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 14:58:10,291 - Translate - DEBUG - Text: 機器人
+2025-01-06 14:58:10,291 - Translate - DEBUG - Translation: robot
+2025-01-06 14:58:10,291 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 14:58:10,291 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 14:58:10,293 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 14:58:13,888 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 14:58:13,890 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/a4ca33bb-7306-4156-8182-6ce696393eb7/outputs/output.jpg
+2025-01-06 15:13:00,359 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 15:13:00,360 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 15:13:00,360 - Translate - DEBUG - enter translate_text()
+2025-01-06 15:13:00,360 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 15:13:00,371 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 15:13:00,373 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 15:13:00,376 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 15:13:00,496 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 15:13:00,498 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 15:13:00,632 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 15:13:00,632 - Translate - DEBUG - Text: 機器人
+2025-01-06 15:13:00,632 - Translate - DEBUG - Translation: robot
+2025-01-06 15:13:00,632 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 15:13:00,633 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 15:13:00,634 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 15:13:04,064 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 15:13:04,067 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/2c21df85-c076-4c75-98da-2fe86d87cecb/outputs/output.jpg
+2025-01-06 15:13:09,595 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 15:13:09,596 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 15:13:09,596 - Translate - DEBUG - enter translate_text()
+2025-01-06 15:13:09,596 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 15:13:09,606 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 15:13:09,608 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 15:13:09,610 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 15:13:10,106 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 15:13:10,108 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 15:13:10,516 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 15:13:10,516 - Translate - DEBUG - Text: 機器人
+2025-01-06 15:13:10,516 - Translate - DEBUG - Translation: robot
+2025-01-06 15:13:10,516 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 15:13:10,516 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 15:13:10,518 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 15:13:14,305 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 15:13:14,308 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/7ab8d9f1-7a26-4240-9d74-342e52b608e4/outputs/output.jpg
+2025-01-06 15:13:20,171 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 15:13:20,172 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 15:13:20,172 - Translate - DEBUG - enter translate_text()
+2025-01-06 15:13:20,172 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 15:13:20,182 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 15:13:20,184 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 15:13:20,186 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 15:13:20,318 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 15:13:20,320 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 15:13:20,440 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 15:13:20,441 - Translate - DEBUG - Text: 機器人
+2025-01-06 15:13:20,441 - Translate - DEBUG - Translation: robot
+2025-01-06 15:13:20,441 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 15:13:20,441 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 15:13:20,442 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 15:13:24,491 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 15:13:24,494 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/e4eb8a39-2b3c-4239-8a3f-33fe84695cb4/outputs/output.jpg
+2025-01-06 15:13:30,615 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 15:13:30,615 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 15:13:30,615 - Translate - DEBUG - enter translate_text()
+2025-01-06 15:13:30,616 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 15:13:30,626 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 15:13:30,628 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 15:13:30,631 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 15:13:30,735 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 15:13:30,738 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 15:13:30,840 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 15:13:30,840 - Translate - DEBUG - Text: 機器人
+2025-01-06 15:13:30,841 - Translate - DEBUG - Translation: robot
+2025-01-06 15:13:30,841 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 15:13:30,841 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 15:13:30,842 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 15:13:36,690 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 15:13:36,692 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/5d9963e3-e237-4341-be82-58a191cc4f12/outputs/output.jpg
+2025-01-06 15:13:43,958 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 15:13:43,958 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 15:13:43,958 - Translate - DEBUG - enter translate_text()
+2025-01-06 15:13:43,959 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 15:13:43,968 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 15:13:43,970 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 15:13:43,972 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 15:13:44,090 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 15:13:44,092 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 15:13:44,197 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 15:13:44,198 - Translate - DEBUG - Text: 機器人
+2025-01-06 15:13:44,198 - Translate - DEBUG - Translation: robot
+2025-01-06 15:13:44,198 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 15:13:44,198 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 15:13:44,199 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 15:13:47,480 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 15:13:47,482 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/346322ee-6de5-48bb-b337-0fd422051df5/outputs/output.jpg
+2025-01-06 15:17:41,018 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 15:17:41,018 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 15:17:41,018 - Translate - DEBUG - enter translate_text()
+2025-01-06 15:17:41,019 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 15:17:41,029 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 15:17:41,030 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 15:17:41,033 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 15:17:41,170 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 15:17:41,172 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 15:17:41,287 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 15:17:41,287 - Translate - DEBUG - Text: 機器人
+2025-01-06 15:17:41,287 - Translate - DEBUG - Translation: robot
+2025-01-06 15:17:41,287 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 15:17:41,288 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 15:17:41,289 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 15:17:44,913 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 15:17:44,915 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/e49cf739-ef1d-462b-92b6-af97eb52455a/outputs/output.jpg
+2025-01-06 15:17:50,807 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 15:17:50,807 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 15:17:50,807 - Translate - DEBUG - enter translate_text()
+2025-01-06 15:17:50,807 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 15:17:50,817 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 15:17:50,819 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 15:17:50,822 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 15:17:50,916 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 15:17:50,919 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 15:17:51,042 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 15:17:51,042 - Translate - DEBUG - Text: 機器人
+2025-01-06 15:17:51,042 - Translate - DEBUG - Translation: robot
+2025-01-06 15:17:51,042 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 15:17:51,042 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 15:17:51,044 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 15:17:54,591 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 15:17:54,594 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/18d6e1fc-82a7-4c64-8fd8-04dfd9ee85b4/outputs/output.jpg
+2025-01-06 15:35:46,822 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 15:35:46,822 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 15:35:46,822 - Translate - DEBUG - enter translate_text()
+2025-01-06 15:35:46,823 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 15:35:46,834 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 15:35:46,835 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 15:35:46,838 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 15:35:46,959 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 15:35:46,961 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 15:35:47,123 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 15:35:47,123 - Translate - DEBUG - Text: 機器人
+2025-01-06 15:35:47,123 - Translate - DEBUG - Translation: robot
+2025-01-06 15:35:47,123 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 15:35:47,123 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 15:35:47,125 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 15:35:50,498 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 15:35:50,501 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/855e4676-ae88-456f-9618-ca0e39dd107d/outputs/output.jpg
+2025-01-06 15:36:00,863 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 15:36:00,864 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 15:36:00,864 - Translate - DEBUG - enter translate_text()
+2025-01-06 15:36:00,864 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 15:36:00,874 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 15:36:00,876 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 15:36:00,878 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 15:36:00,998 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 15:36:01,000 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 15:36:01,126 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 15:36:01,127 - Translate - DEBUG - Text: 機器人
+2025-01-06 15:36:01,127 - Translate - DEBUG - Translation: robot
+2025-01-06 15:36:01,127 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 15:36:01,127 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 15:36:01,129 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 15:36:04,274 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 15:36:04,276 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/bb1c4605-d656-4898-bc8b-a04c82afeb1e/outputs/output.jpg
+2025-01-06 17:06:53,486 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 17:06:53,487 - __main__ - DEBUG - Received arguments: ['大自然', '1']
+2025-01-06 17:06:53,487 - Translate - DEBUG - enter translate_text()
+2025-01-06 17:06:53,487 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 17:06:53,497 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 17:06:53,499 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 17:06:53,501 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 17:06:53,641 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 17:06:53,643 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 17:06:53,786 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 17:06:53,787 - Translate - DEBUG - Text: 大自然
+2025-01-06 17:06:53,787 - Translate - DEBUG - Translation: Nature
+2025-01-06 17:06:53,787 - Translate - DEBUG - Detected source language: zh-CN
+
+2025-01-06 17:06:53,787 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 17:06:53,789 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 17:06:58,540 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 17:06:58,542 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/56b0adff-4bd9-49c2-b41e-66a788ca3a63/outputs/output.jpg
+2025-01-06 17:33:24,912 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 17:33:24,912 - __main__ - DEBUG - Received arguments: ['大自然', '1']
+2025-01-06 17:33:24,912 - Translate - DEBUG - enter translate_text()
+2025-01-06 17:33:24,912 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 17:33:24,922 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 17:33:24,924 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 17:33:24,926 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 17:33:25,064 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 17:33:25,066 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 17:33:25,217 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 17:33:25,218 - Translate - DEBUG - Text: 大自然
+2025-01-06 17:33:25,218 - Translate - DEBUG - Translation: Nature
+2025-01-06 17:33:25,218 - Translate - DEBUG - Detected source language: zh-CN
+
+2025-01-06 17:33:25,218 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 17:33:25,219 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 17:33:37,424 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 17:33:37,427 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/5dc9c07e-82c8-443a-83d1-f39b42bbe4be/outputs/output.jpg
+2025-01-06 19:43:52,804 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 19:43:52,804 - __main__ - DEBUG - Received arguments: ['大自然', '1']
+2025-01-06 19:43:52,804 - Translate - DEBUG - enter translate_text()
+2025-01-06 19:43:52,805 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 19:43:52,815 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 19:43:52,817 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 19:43:52,820 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 19:43:52,949 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 19:43:52,951 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 19:43:53,113 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 19:43:53,114 - Translate - DEBUG - Text: 大自然
+2025-01-06 19:43:53,114 - Translate - DEBUG - Translation: Nature
+2025-01-06 19:43:53,114 - Translate - DEBUG - Detected source language: zh-CN
+
+2025-01-06 19:43:53,114 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 19:43:53,116 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 19:43:56,828 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 19:43:56,830 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/6be32870-4151-47fa-8318-6c9a78b7a792/outputs/output.jpg
+2025-01-06 19:46:29,043 - __main__ - DEBUG - pythonScript has execute
+2025-01-06 19:46:29,043 - __main__ - DEBUG - Received arguments: ['機器人', '1']
+2025-01-06 19:46:29,043 - Translate - DEBUG - enter translate_text()
+2025-01-06 19:46:29,043 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-06 19:46:29,053 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-06 19:46:29,055 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-06 19:46:29,057 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-06 19:46:29,181 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-06 19:46:29,183 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-06 19:46:29,317 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-06 19:46:29,318 - Translate - DEBUG - Text: 機器人
+2025-01-06 19:46:29,318 - Translate - DEBUG - Translation: robot
+2025-01-06 19:46:29,318 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-01-06 19:46:29,318 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-06 19:46:29,319 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-06 19:46:32,684 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-06 19:46:32,686 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/b33fb719-ddce-4f57-84fc-a5662f421ca3/outputs/output.jpg
+2025-01-07 11:00:09,750 - __main__ - DEBUG - pythonScript has execute
+2025-01-07 11:00:09,750 - __main__ - DEBUG - Received arguments: ['科技', '奇幻', '1']
+2025-01-07 11:00:09,751 - Translate - DEBUG - enter translate_text()
+2025-01-07 11:00:09,751 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-07 11:00:09,751 - __main__ - DEBUG - 翻譯失敗
+2025-01-07 11:00:09,751 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-07 11:00:09,751 - __main__ - DEBUG - 生成失敗
+2025-01-07 11:02:46,824 - __main__ - DEBUG - pythonScript has execute
+2025-01-07 11:02:46,825 - __main__ - DEBUG - Received arguments: ['科技', '奇幻', '1']
+2025-01-07 11:02:46,825 - Translate - DEBUG - enter translate_text()
+2025-01-07 11:02:46,825 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-07 11:02:46,841 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-07 11:02:46,841 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-07 11:02:46,841 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-07 11:02:46,878 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-07 11:02:46,878 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-07 11:02:46,939 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-07 11:02:46,939 - Translate - DEBUG - Text: 科技
+2025-01-07 11:02:46,939 - Translate - DEBUG - Translation: science and technology
+2025-01-07 11:02:46,939 - Translate - DEBUG - Detected source language: zh-CN
+
+2025-01-07 11:02:46,939 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-07 11:02:46,939 - __main__ - DEBUG - 生成失敗
+2025-01-07 11:03:12,135 - __main__ - DEBUG - pythonScript has execute
+2025-01-07 11:03:12,135 - __main__ - DEBUG - Received arguments: ['科技', '奇幻', '1']
+2025-01-07 11:03:12,135 - Translate - DEBUG - enter translate_text()
+2025-01-07 11:03:12,135 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-07 11:03:12,143 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-07 11:03:12,145 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-07 11:03:12,147 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-07 11:03:12,198 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-07 11:03:12,201 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-07 11:03:12,280 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-07 11:03:12,280 - Translate - DEBUG - Text: 科技
+2025-01-07 11:03:12,280 - Translate - DEBUG - Translation: science and technology
+2025-01-07 11:03:12,280 - Translate - DEBUG - Detected source language: zh-CN
+
+2025-01-07 11:03:12,280 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-07 11:03:12,280 - __main__ - DEBUG - 生成失敗
+2025-01-07 11:05:47,853 - __main__ - DEBUG - pythonScript has execute
+2025-01-07 11:05:47,853 - __main__ - DEBUG - Received arguments: ['科技奇幻', '1']
+2025-01-07 11:05:47,853 - Translate - DEBUG - enter translate_text()
+2025-01-07 11:05:47,853 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-07 11:05:47,869 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-01-07 11:05:47,869 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-01-07 11:05:47,869 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-01-07 11:05:47,918 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-01-07 11:05:47,919 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-01-07 11:05:48,053 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-01-07 11:05:48,053 - Translate - DEBUG - Text: 科技奇幻
+2025-01-07 11:05:48,053 - Translate - DEBUG - Translation: Tech Fantasy
+2025-01-07 11:05:48,053 - Translate - DEBUG - Detected source language: zh-CN
+
+2025-01-07 11:05:48,053 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-07 11:05:48,053 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-07 11:05:51,145 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-07 11:05:51,146 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/17382000-90b0-4269-ad36-77dc4a01c0ea/outputs/output.jpg
+2025-01-07 17:05:05,294 - __main__ - DEBUG - pythonScript has execute
+2025-01-07 17:05:05,294 - __main__ - DEBUG - Received arguments: ['catanddog', '1']
+2025-01-07 17:05:05,295 - Translate - DEBUG - enter translate_text()
+2025-01-07 17:05:05,295 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-07 17:05:05,295 - __main__ - DEBUG - 翻譯失敗
+2025-01-07 17:05:05,295 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-07 17:05:05,297 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-07 17:05:08,516 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-07 17:05:08,517 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/efa6b1c6-4a49-4b13-9544-c1dee7ed0221/outputs/output.jpg
+2025-01-07 17:15:15,337 - __main__ - DEBUG - pythonScript has execute
+2025-01-07 17:15:15,337 - __main__ - DEBUG - Received arguments: ['catanddog', '1']
+2025-01-07 17:15:15,337 - Translate - DEBUG - enter translate_text()
+2025-01-07 17:15:15,337 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-07 17:15:15,337 - __main__ - DEBUG - 翻譯失敗
+2025-01-07 17:15:15,337 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-07 17:15:15,337 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-07 17:15:19,049 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-07 17:15:19,050 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/7c8c7303-f274-44fe-b17c-d55a3c94aae5/outputs/output.jpg
+2025-01-07 18:21:11,433 - __main__ - DEBUG - pythonScript has execute
+2025-01-07 18:21:11,433 - __main__ - DEBUG - Received arguments: ['嗨你好今天天氣', '1']
+2025-01-07 18:21:11,433 - Translate - DEBUG - enter translate_text()
+2025-01-07 18:21:11,434 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-01-07 18:21:11,435 - __main__ - DEBUG - 翻譯失敗
+2025-01-07 18:21:11,435 - GenerateAIPictures - DEBUG - enter genPic()
+2025-01-07 18:21:11,436 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-01-07 18:21:15,334 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-01-07 18:21:15,336 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/25fbf5e5-8bb9-4e51-98ba-9d8f7c3e8539/outputs/output.jpg

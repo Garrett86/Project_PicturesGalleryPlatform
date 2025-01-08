@@ -8,5 +8,6 @@
         public int width { get; set; }
         public int height { get; set; }
         public string tag { get; set; }
+        public bool isFavorited { get; set; } = false;
     }
 }

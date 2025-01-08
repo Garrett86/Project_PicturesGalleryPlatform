@@ -1,0 +1,79 @@
+﻿.u-section-2 .u-text-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
+    margin: 60px auto 0;
+}
+
+.u-section-2 .u-gallery-1 {
+    height: 430px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.u-gallery-group {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adjust spacing between images */
+}
+
+.u-back-image {
+    max-width: 500px; /* Set maximum width for images */
+    max-height: 300px; /* Set maximum height for images */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.image-number {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 2px 10px;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+.image-ranking {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 2px 10px;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+.u-gallery-nav {
+    width: 50px;
+    height: 50px;
+    font-size: 20px; /* 按鈕文字大小 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* 背景透明灰色 */
+    color: white; /* 文字顏色 */
+    border-radius: 50%; /* 圓形按鈕 */
+}
+
+.u-gallery-nav-prev {
+    position: absolute;
+    /*top: 50%;*/  /*垂直置中*/ 
+    top: 40%;  /*垂直置中*/ 
+    left: 10px; /* 距離左側 */
+    transform: translateY(-50%); /* 修正垂直位置 */
+}
+
+.u-gallery-nav-next {
+    position: absolute;
+    /*top: 50%;*/ /*垂直置中*/
+    top: 40%; /*垂直置中*/
+    right: 10px; /* 距離右側 */
+    transform: translateY(-50%); /* 修正垂直位置 */
+}

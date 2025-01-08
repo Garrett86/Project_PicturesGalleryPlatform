@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Success";
+}
+<br />
+<h1>登入成功</h1>
+<p>歡迎, @ViewBag.User!</p>
+
+
+<br />
+<a href="@Url.Action("Logout", "Account")">登出</a>
+
+<br />
+<!-- 顯示前往 success02 頁面的超連結 -->
+<a href="@Url.Action("Index", "Success02")">點擊這裡前往 Success02 頁面</a>

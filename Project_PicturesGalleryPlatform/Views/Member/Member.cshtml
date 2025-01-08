@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Project_PicturesGalleryPlatform.Models.Member
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -14,21 +15,19 @@
                 <div class="u-border-2 u-border-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-container-style u-list-item u-repeater-item">
                     <div class="u-container-layout u-similar-container u-container-layout-1">
                         <h4 class="u-text u-text-2">名字：</h4>
+                        <h3>@Model.name </h3>
                     </div>
-                </div>
-                <div class="u-border-2 u-border-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-container-style u-list-item u-repeater-item">
-                    <div class="u-container-layout u-similar-container u-container-layout-2">
-                        <h4 class="u-text u-text-3">姓氏：</h4>
-                    </div>
-                </div>
+                </div>           
                 <div class="u-border-2 u-border-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-container-style u-list-item u-repeater-item">
                     <div class="u-container-layout u-similar-container u-container-layout-3">
-                        <h4 class="u-text u-text-4">帳號名：</h4>
+                        <h4 class="u-text u-text-4">帳號名稱：</h4>
+                        <h3>@Model.account</h3>
                     </div>
                 </div>
                 <div class="u-border-2 u-border-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-container-style u-list-item u-repeater-item">
                     <div class="u-container-layout u-similar-container u-container-layout-4">
-                        <h4 class="u-text u-text-5">E-mail：</h4>
+                        <h4 class="u-text u-text-5">電子郵箱：</h4>
+                        <h3>@Model.email</h3>
                     </div>
                 </div>
             </div>

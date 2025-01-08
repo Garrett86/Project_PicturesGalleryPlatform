@@ -1,0 +1,586 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+      <link rel="stylesheet" href="~/css/member.css" media="screen">
+</head>
+
+<section class="u-clearfix u-image u-shading u-section-1" id="carousel_6a80">
+    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h2 class="u-align-center u-text u-text-default-lg u-text-default-xl u-text-default-xxl u-text-1">會員資料 </h2>
+        <div class="u-list u-list-1">
+            <div class="u-repeater u-repeater-1">
+                <div class="u-border-2 u-border-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-1">
+                        <h4 class="u-text u-text-2">名字：</h4>
+                    </div>
+                </div>
+                <div class="u-border-2 u-border-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-2">
+                        <h4 class="u-text u-text-3">姓氏：</h4>
+                    </div>
+                </div>
+                <div class="u-border-2 u-border-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-3">
+                        <h4 class="u-text u-text-4">帳號名：</h4>
+                    </div>
+                </div>
+                <div class="u-border-2 u-border-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-4">
+                        <h4 class="u-text u-text-5">E-mail：</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a asp-controller="Member" asp-action="MemberModify"
+           class="u-btn u-btn-round u-button-style u-hover-palette-1-light-2 u-palette-1-base u-radius u-btn-1">
+            會員資料更改&nbsp;<span class="u-icon u-text-white">
+                <svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" style="width: 1em; height: 1em;">
+                    <path d="M506.134,241.843c-0.006-0.006-0.011-0.013-0.018-0.019l-104.504-104c-7.829-7.791-20.492-7.762-28.285,0.068 c-7.792,7.829-7.762,20.492,0.067,28.284L443.558,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h423.557 l-70.162,69.824c-7.829,7.792-7.859,20.455-0.067,28.284c7.793,7.831,20.457,7.858,28.285,0.068l104.504-104 c0.006-.006,0.011-.013,0.018-.019C513.968,262.339,513.943,249.635,506.134,241.843z">
+                    </path>
+                </svg>
+            </span>
+        </a>
+    </div>
+    <style data-mode="XXL">
+        @@media (max-width: 0px) {
+          .u-section-1 .u-sheet-1 {
+            min-height: 1213px;
+          }
+
+          .u-section-1 .u-text-1 {
+            margin-top: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0;
+          }
+
+          .u-block-83af-9 {
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0;
+          }
+
+          .u-section-1 .u-list-1 {
+            width: 777px;
+            margin-top: 51px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0;
+          }
+
+          .u-section-1 .u-repeater-1 {
+            grid-template-columns: repeat(1, 100%);
+            min-height: 817px;
+            grid-gap: 10px;
+          }
+
+          .u-section-1 .u-container-layout-1 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 0;
+            padding-right: 0;
+          }
+
+          .u-section-1 .u-text-2 {
+            margin-top: 0;
+            margin-right: 542px;
+            margin-bottom: 0;
+            margin-left: 0;
+            font-size: 1rem;
+          }
+
+          .u-block-83af-15 {
+            margin-top: -58px;
+            margin-right: 0;
+            margin-bottom: 0;
+            margin-left: 280px;
+          }
+
+          .u-section-1 .u-container-layout-2 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 0;
+            padding-right: 0;
+          }
+
+          .u-section-1 .u-text-3 {
+            margin-top: 0;
+            margin-right: 542px;
+            margin-bottom: 0;
+            margin-left: 0;
+            font-size: 1rem;
+          }
+
+          .u-block-83af-29 {
+            margin-top: -58px;
+            margin-right: 0;
+            margin-bottom: 0;
+            margin-left: 280px;
+          }
+
+          .u-section-1 .u-container-layout-3 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 0;
+            padding-right: 0;
+          }
+
+          .u-section-1 .u-text-4 {
+            margin-top: 0;
+            margin-right: 542px;
+            margin-bottom: 0;
+            margin-left: 0;
+            font-size: 1rem;
+          }
+
+          .u-block-83af-33 {
+            margin-top: -58px;
+            margin-right: 0;
+            margin-bottom: 0;
+            margin-left: 280px;
+          }
+
+          .u-section-1 .u-container-layout-4 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 0;
+            padding-right: 0;
+          }
+
+          .u-section-1 .u-text-5 {
+            margin-top: 0;
+            margin-right: 542px;
+            margin-bottom: 0;
+            margin-left: 0;
+            font-size: 1rem;
+          }
+
+          .u-block-83af-37 {
+            margin-top: -86px;
+            margin-right: 0;
+            margin-bottom: 0;
+            margin-left: 280px;
+          }
+
+          .u-block-83af-38 {
+            border-style: solid;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            margin-top: 52px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 60px;
+            padding-top: 16px;
+            padding-right: 53px;
+            padding-bottom: 18px;
+            padding-left: 52px;
+          }
+        }
+    </style>
+</section>
+<section class="u-align-center u-clearfix u-container-align-center u-grey-80 u-section-2" id="sec-7cd4">
+    <h1 class="u-text u-text-default u-text-1">我的最愛</h1>
+    <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-on-hover u-gallery-1">
+        <div class="u-gallery-inner u-gallery-inner-1">
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="810" data-image-height="1080">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-8703831.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-1"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item u-gallery-item-2">
+                <div class="u-back-slide" data-image-width="1620" data-image-height="1080">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-929282.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-2"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item u-gallery-item-3">
+                <div class="u-back-slide" data-image-width="810" data-image-height="1080">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-8664598.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-3"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item u-gallery-item-4">
+                <div class="u-back-slide" data-image-width="1001" data-image-height="1500">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-2221879.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-4"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item u-gallery-item-5">
+                <div class="u-back-slide" data-image-width="1000" data-image-height="1500">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-3572989.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-5"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item u-gallery-item-6">
+                <div class="u-back-slide" data-image-width="720" data-image-height="1080">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-1845534.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-6"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item u-gallery-item-7">
+                <div class="u-back-slide" data-image-width="1200" data-image-height="1500">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-3443934.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-7"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1000" data-image-height="1500">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-9136322.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-8"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="2000" data-image-height="1333">
+                    <img class="u-back-image u-expanded" src="~/images/attractive-couple-man-woman-talking-urban-city-center.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-9"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="2000" data-image-height="1333">
+                    <img class="u-back-image u-expanded"
+                         src="~/images/low-angle-shot-tall-high-rise-modern-business-building-with-clear-sky.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-10"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1280" data-image-height="1920">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-todd-trapani-3790058.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-11"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1280" data-image-height="1707">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-toms-monteiro-4107897.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-12"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1280" data-image-height="853">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-alexander-isreb-1797418.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-13"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1001" data-image-height="1500">
+                    <img class="u-back-image u-expanded"
+                         src="~/images/black-white-dramatic-landscapes-with-buildings-low-angle.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-14"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="2000" data-image-height="1333">
+                    <img class="u-back-image u-expanded" src="~/images/bussiness-people-working-team-office.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-15"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1920" data-image-height="1281">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-lisa-fotios-1957478.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-16"></div>
+            </div>
+        </div>
+    </div>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-1">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-1">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-2">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-2">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-3">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-3">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-4">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-4">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-5">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-5">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-6">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-6">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-7">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-7">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-8">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-8">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-9">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-9">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-10">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-10">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-11">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-11">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-12">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-12">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-13">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-13">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-14">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-14">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-15">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-15">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-16">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-16">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+</section>
+<section class="u-align-center u-clearfix u-container-align-center u-grey-80 u-section-3" id="sec-93fa">
+    <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-on-hover u-gallery-1">
+        <div class="u-gallery-inner u-gallery-inner-1">
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="810" data-image-height="1080">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-8703831.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-1"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item u-gallery-item-2">
+                <div class="u-back-slide" data-image-width="1620" data-image-height="1080">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-929282.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-2"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item u-gallery-item-3">
+                <div class="u-back-slide" data-image-width="810" data-image-height="1080">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-8664598.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-3"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item u-gallery-item-4">
+                <div class="u-back-slide" data-image-width="1001" data-image-height="1500">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-2221879.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-4"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item u-gallery-item-5">
+                <div class="u-back-slide" data-image-width="1000" data-image-height="1500">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-3572989.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-5"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item u-gallery-item-6">
+                <div class="u-back-slide" data-image-width="720" data-image-height="1080">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-1845534.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-6"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item u-gallery-item-7">
+                <div class="u-back-slide" data-image-width="1200" data-image-height="1500">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-3443934.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-7"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1000" data-image-height="1500">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-photo-9136322.jpeg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-8"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="2000" data-image-height="1333">
+                    <img class="u-back-image u-expanded" src="~/images/attractive-couple-man-woman-talking-urban-city-center.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-9"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="2000" data-image-height="1333">
+                    <img class="u-back-image u-expanded"
+                         src="~/images/low-angle-shot-tall-high-rise-modern-business-building-with-clear-sky.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-10"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1280" data-image-height="1920">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-todd-trapani-3790058.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-11"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1280" data-image-height="1707">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-toms-monteiro-4107897.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-12"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1280" data-image-height="853">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-alexander-isreb-1797418.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-13"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1001" data-image-height="1500">
+                    <img class="u-back-image u-expanded"
+                         src="~/images/black-white-dramatic-landscapes-with-buildings-low-angle.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-14"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="2000" data-image-height="1333">
+                    <img class="u-back-image u-expanded" src="~/images/bussiness-people-working-team-office.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-15"></div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1920" data-image-height="1281">
+                    <img class="u-back-image u-expanded" src="~/images/pexels-lisa-fotios-1957478.jpg">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-16"></div>
+            </div>
+        </div>
+    </div>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-1">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-1">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-2">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-2">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-3">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-3">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-4">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-4">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-5">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-5">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-6">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-6">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-7">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-7">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-8">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-8">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-9">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-9">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-10">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-10">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-11">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-11">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-12">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-12">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-13">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-13">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-14">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-14">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-15">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-15">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+    <a href=""
+       class="u-border-2 u-border-hover-palette-3-base u-border-palette-1-base u-btn u-btn-round u-button-style u-none u-radius u-text-palette-2-base u-btn-16">
+        <span class="u-file-icon u-icon u-text-palette-2-base u-icon-16">
+            <img src="~/images/130197-3178f650.png" alt="">
+        </span>
+    </a>
+</section>

@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/member.css" media="screen">
+    <link rel="stylesheet" href="~/css/custom-style.css" media="screen">
+</head>
+
+
+<style>
+    .heart-btn {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        font-size: 32px;
+        cursor: pointer;
+        z-index: 9999;
+    }
+</style>
+
+<section class="u-align-center u-clearfix u-container-align-center u-grey-80 u-section-2" id="sec-7cd4">
+    <h1 class="u-text u-text-default u-text-1">我的最愛</h1>
+    <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-on-hover u-gallery-1">
+        <div class="u-gallery-inner u-gallery-inner-1" id="MyFavoritesContainer"></div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/MyFavorites.js"></script>
+}

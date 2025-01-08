@@ -1,0 +1,7 @@
+image_similarity_search.exe filter=lfs diff=lfs merge=lfs -text
+searchNLP_V14.exe filter=lfs diff=lfs merge=lfs -text
+wwwroot/Model/paraphrase-multilingual-MiniLM-L12-v2/* filter=lfs diff=lfs merge=lfs -text
+Project_PicturesGalleryPlatform/wwwroot/Model/paraphrase-multilingual-MiniLM-L12-v2/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+Project_PicturesGalleryPlatform/wwwroot/Model/paraphrase-multilingual-MiniLM-L12-v2/archive/data/1 filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.1 filter=lfs diff=lfs merge=lfs -text

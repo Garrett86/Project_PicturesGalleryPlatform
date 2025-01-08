@@ -1,0 +1,82 @@
+﻿@{
+    Layout="";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Login.css" media="screen">
+</head>
+    <style>
+    .u-btn001 {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+            background-color: #4682B4; /* 按鈕背景色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+    .u-btn:hover {
+            background-color: #5A9BD3; /* 滑鼠懸停效果 */
+    }
+
+    .error-message {
+    color: red;
+    margin-top: 10px;
+    }
+    </style>
+    <section class="u-clearfix u-image u-shading u-section-1" id="sec-65d4">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+            <div class="u-align-center u-container-align-center u-container-style u-group u-shape-rectangle u-group-1">
+                <div class="u-container-layout u-valign-middle u-container-layout-1">
+                    <span class="u-file-icon u-icon u-text-white u-icon-1">
+                        <img src="~/images/747376-e872e00f.png" alt="">
+                    </span>
+                    <h2 class="u-text u-text-body-alt-color u-text-default u-text-1">會員登入 </h2>
+                    <div class="u-form u-login-control u-form-1">
+                        <form method="post" action="@Url.Action("Login", "Login")">
+                            <div class="u-form-group u-form-name">
+                                <label for="username-a30d" class="u-label u-text-grey-5 u-label-1">帳號*</label>
+                                <input type="text" placeholder="輸入帳號" id="username-a30d" name="account" class="u-border-2 u-border-grey-10 u-grey-10 u-input u-input-rectangle u-input-1" onfocus="clearErrorMessage()" required="">
+                            </div>
+                            <div class="u-form-group u-form-password">
+                                <label for="password-a30d" class="u-label u-text-grey-5 u-label-2">密碼 *</label>
+                                <input type="password" placeholder="輸入密碼" id="password-a30d" name="password" class="u-border-2 u-border-grey-10 u-grey-10 u-input u-input-rectangle u-input-2" onfocus="clearErrorMessage()" required="">
+                                @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+                                {
+                                    <br />
+                                    <span id="error-message" style="color: crimson";>@ViewBag.ErrorMessage</span>
+                                }
+                            
+                            </div>
+                            <script>
+                                function clearErrorMessage() {
+                                    const errorMessage = document.getElementById("error-message");
+                                    if (errorMessage) {
+                                        errorMessage.style.display = "none";
+                                    }
+                                }
+                            </script>
+                            <br />
+                            <br />
+                            <button type="submit" class="u-btn001">登入</button>
+                            <input type="hidden" value="" name="recaptchaResponse">
+                        </form>
+
+
+                        
+                    </div>
+                    <a href="#" class="u-border-1 u-border-active-grey-10 u-border-hover-grey-10 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-login-control u-login-create-account u-none u-text-body-alt-color u-btn-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""> </a>
+                    <a href="@Url.Action("Register", "Register")" class="u-border-1 u-border-active-grey-10 u-border-hover-grey-10 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-login-control u-login-create-account u-none u-text-body-alt-color u-btn-3">沒有帳號？ </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+

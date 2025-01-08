@@ -1,7 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using System.Diagnostics;
 using Project_PicturesGalleryPlatform.Models;
-using Project_PicturesGalleryPlatform.Services;
+using Project_PicturesGalleryPlatform.Services.ImageService;
+using Project_PicturesGalleryPlatform.Models.AIPicturesModels;
+
+using Project_PicturesGalleryPlatform.Repositories.IRatingService;
 
 namespace Project_PicturesGalleryPlatform.Controllers
 {
@@ -9,48 +13,54 @@ namespace Project_PicturesGalleryPlatform.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IImageService _imageService;
+        private readonly IRatingService _ratingService;
 
-        public HomeController(ILogger<HomeController> logger, IImageService imageService)
+        public HomeController(ILogger<HomeController> logger, IImageService imageService, IRatingService ratingService)
         {
             _logger = logger;
             _imageService = imageService;
+            _ratingService = ratingService;
         }
+
 
         public IActionResult Index()
         {
-            //var pictures = _imageService.GetAccountsById(1);
-            //ViewData["picture"] = pictures;
-            //return View("../Page/PictureInfo");
+            if (Request.Cookies.ContainsKey("UserAccount"))
+            {
+                ViewBag.User = Request.Cookies["UserAccount"]; // ï¿½ï¿½ Cookies È¡ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Q
+            }
+            else
+            {
+                ViewBag.User = null; // Î´ï¿½ï¿½ï¿½ï¿½rï¿½ï¿½ï¿½Oï¿½Ãžï¿½ null
+            }
+            // è¼‰å…¥è³‡æ–™åº«è©•åˆ†è¡¨å–®
+            var totalScores = _ratingService.GetUserTotalScore();
+            ViewData["TotalScores"] = totalScores;
             return View();
         }
 
+
+
         [HttpPost]
-        public IActionResult SearchImages(string keyword)
+        public IActionResult AIPictures(string keyword)
         {
             if (string.IsNullOrWhiteSpace(keyword))
-            {
-                ViewData["ErrorMessage"] = "½Ð¿é¤J¦³®ÄªºÃöÁä¦r¡C";
-                return View("Index", _imageService.GetRandomImages());
+            {// ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å­ï¿½
+                TempData["feedbackMessage"] = "ï¿½Ð¿ï¿½Jï¿½ï¿½ï¿½Äªï¿½ï¿½ï¿½ï¿½ï¿½rï¿½C";
+                TempData["action"] = "Index";
+                TempData["controller"] = "Home";
+                return RedirectToAction("TransitionPage", "Universal");
             }
-
-            ViewData["keyword"] = keyword;
-            var images = _imageService.GetImagesByKeyword(keyword);
-            return View("../Page/Result");
-            
-
-        }
-
-
-
-        public JsonResult GetImagesByPage(int page, int pageSize)
-        {
-            if (page < 0 || pageSize <= 0)
+            var temps = (keyword.Trim()).Split(" ");// bugï¿½ï¿½ï¿½ï¿½ï¿½ï¿½01/07
+            string newKeyword = "";
+            foreach (var temp in temps)
             {
-                return Json(new { error = "µL®Äªº­¶­±©Î¨C­¶¤j¤p°Ñ¼Æ¡C" });
+                newKeyword += temp;
             }
-
-            var images = _imageService.GetImagesByPage(page, pageSize);
-            return Json(images);
+            Console.WriteLine("Home//AIPicturesï¿½ï¿½ï¿½ï¿½&ï¿½Bï¿½zï¿½ï¿½keyword: {0}", newKeyword);
+            TempData["keyword_AI"] = newKeyword;
+            TempData.Keep("keyword_AI");
+            return View("~/Views/Page/Result_AI.cshtml");// ï¿½Ý´ï¿½ï¿½ï¿½
         }
 
 
@@ -58,6 +68,14 @@ namespace Project_PicturesGalleryPlatform.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        public IActionResult Logout()
+        {
+            if (Request.Cookies.ContainsKey("UserAccount"))
+            {
+                Response.Cookies.Delete("UserAccount"); // ï¿½hï¿½ï¿½ UserAccount ï¿½ï¿½ Cookie
+            }
+            return RedirectToAction("Index", "Home"); // ï¿½Ç³ï¿½ï¿½áŒ§ï¿½ï¿½ï¿½ï¿½?
         }
     }
 }
