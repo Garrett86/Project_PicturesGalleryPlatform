@@ -9,3 +9,9 @@
 	   合併tzuchun，內容還沒調整完，有點問題 by永旭
 
 2025/1/1 develop併入master(squash and merge)
+
+2025/1/8 Demo版1.0發布
+	 以圖搜圖功能還沒串接好(py檔本身已完成)
+	 連結字串還沒改(我們建了新的sqlServer)
+	 上傳功能還在testMode
+	 一些bug未修
