@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using Project_PicturesGalleryPlatform.Models.AIPicturesModels;
 using Microsoft.EntityFrameworkCore;
 using Project_PicturesGalleryPlatform.Models;
-using Project_PicturesGalleryPlatform.Services.ImageAnalysisService;
 using Project_PicturesGalleryPlatform.Services.ImageService;
 using Project_PicturesGalleryPlatform.Services.MyFavoritesService;
 using System.Diagnostics;
@@ -16,15 +15,13 @@ namespace Project_PicturesGalleryPlatform.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly IImageService _imageService;
         private readonly IMyFavoritesService _myFavoritesService;
-        private readonly IImageAnalysisService _imageAnalysisService;
         private readonly ApplicationDbContext _dbContext;
 
-        public PageController(ILogger<HomeController> logger, IImageService imageService, IImageAnalysisService imageAnalysisService, ApplicationDbContext dbContext, IMyFavoritesService myFavoritesService)
+        public PageController(ILogger<HomeController> logger, IImageService imageService, ApplicationDbContext dbContext, IMyFavoritesService myFavoritesService)
         {
             _logger = logger;
             _dbContext = dbContext;
             _imageService = imageService;
-            _imageAnalysisService = imageAnalysisService;
             _myFavoritesService = myFavoritesService;
         }
         public IActionResult Result()

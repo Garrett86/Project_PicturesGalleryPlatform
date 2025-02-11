@@ -1,15 +1,12 @@
 ﻿using Project_PicturesGalleryPlatform.Repositories.ImageRepository;
 using Project_PicturesGalleryPlatform.Repositories.MyFavoritesRepository;
-using Project_PicturesGalleryPlatform.Services.ImageAnalysisService.PythonImageAnalysisExecutor;
-using Project_PicturesGalleryPlatform.Services.ImageAnalysisService;
 using Project_PicturesGalleryPlatform.Services.ImageService;
 using Project_PicturesGalleryPlatform.Services.MyFavoritesService;
 using Microsoft.EntityFrameworkCore;
 using Project_PicturesGalleryPlatform.Models;
-using Project_PicturesGalleryPlatform.Repositories;
-using Project_PicturesGalleryPlatform.Services;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Project_PicturesGalleryPlatform.Repositories.IRatingService;
+using Project_PicturesGalleryPlatform.Services.ImageSimilarityExecutor;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,14 +20,15 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IRatingService, RatingService>();
-builder.Services.AddScoped<IMyFavoritesRepository, MyFavoritesRepository>();
-builder.Services.AddScoped<IMyFavoritesService, MyFavoritesService>();
 
-builder.Services.AddScoped<IImageRepository, ImageRepository>();
 builder.Services.AddScoped<IImageService, ImageService>();
+builder.Services.AddScoped<IImageRepository, ImageRepository>();
 
-builder.Services.AddScoped<IImageAnalysisService, ImageAnalysisService>();
-builder.Services.AddScoped<IPythonImageAnalysisExecutor, PythonImageAnalysisExecutor>();
+builder.Services.AddScoped<IMyFavoritesService, MyFavoritesService>();
+builder.Services.AddScoped<IMyFavoritesRepository, MyFavoritesRepository>();
+
+builder.Services.AddSingleton<IImageSimilarityExecutor, ImageSimilarityExecutor>();
+
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddSession();// for session
@@ -57,5 +55,10 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.Lifetime.ApplicationStarted.Register(() =>
+{
+    app.Services.GetRequiredService<IImageSimilarityExecutor>().StartImageSimilaritySearch();  // 開啟 pythonAPI
+});
 
 app.Run();

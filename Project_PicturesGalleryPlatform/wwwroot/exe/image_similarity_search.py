@@ -18,10 +18,10 @@ exe_dir = os.path.dirname(sys.executable)
 parent_dir = os.path.dirname(exe_dir)
 
 # 載入VGG16模型 (不包含頂層)
-model = VGG16(weights='imagenet', include_top=False, input_shape=(224, 224, 3))
+model = VGG16(weights="imagenet", include_top=False, input_shape=(224, 224, 3))
 
 # 設置特徵緩存路徑
-feature_cache_folder = os.path.join(parent_dir, 'features_cache')
+feature_cache_folder = os.path.join(parent_dir, "features_cache")
 if not os.path.exists(feature_cache_folder):
     os.makedirs(feature_cache_folder)
 
@@ -35,6 +35,10 @@ def extract_features(img_path):
     
     # 若沒有特徵則提取新圖片特徵
     img = image.load_img(img_path, target_size=(224, 224))
+    
+    if img.mode != "RGB":
+        img = img.convert("RGB")
+
     img_array = np.expand_dims(image.img_to_array(img), axis=0)
     img_array = preprocess_input(img_array)
     
@@ -46,29 +50,33 @@ def extract_features(img_path):
     return normalized_features
 
 # 圖片資料夾路徑
-image_folder = os.path.join(parent_dir, 'downloaded_images')
+image_folder = os.path.join(parent_dir, "images2")
 image_paths = [os.path.join(image_folder, img) for img in os.listdir(image_folder) 
-               if img.lower().endswith(('.png', '.jpg', '.jpeg', 'webp'))]
+               if img.lower().endswith((".png", ".jpg", ".jpeg", "webp"))]
 
 # 多執行緒加速特徵提取
 with ThreadPoolExecutor(max_workers=16) as executor:
     features_list = list(executor.map(extract_features, image_paths))
 
 # 上傳圖片並查詢相似圖片
-@app.route('/upload', methods=['POST'])
+@app.route("/upload", methods=["POST"])
 def upload_image():
     # 檢查是否有文件
-    if 'file' not in request.files:
-        return jsonify({'error': 'No file part'}), 400
+    if "file" not in request.files:
+        return jsonify({"error": "No file part"}), 400
     
-    file = request.files['file']
+    file = request.files["file"]
     
     # 檢查文件名稱
-    if file.filename == '':
-        return jsonify({'error': 'No selected file'}), 400
+    if file.filename == "":
+        return jsonify({"error": "No selected file"}), 400
 
     # 讀取並處理上傳圖片
     img = Image.open(BytesIO(file.read())).resize((224, 224))
+
+    if img.mode != "RGB":
+        img = img.convert("RGB")
+
     img_array = np.expand_dims(image.img_to_array(img), axis=0)
     img_array = preprocess_input(img_array)
     
@@ -89,10 +97,8 @@ def upload_image():
         for idx in top_indices if similarities[idx] > similarity_threshold
     ]
 
-    print({'filtered_image_names': filtered_image_names})
-    
     # 返回結果
-    return jsonify({'filtered_image_names': filtered_image_names})
+    return jsonify({"filtered_image_names": filtered_image_names})
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True, port=5001, use_reloader=False)

@@ -8,10 +8,10 @@ namespace Project_PicturesGalleryPlatform.Models.UploadModel
     public class UserUpload
     {
         private static readonly string connectionString =
-            "Server=tcp:group1project.database.windows.net,1433;Initial Catalog=PicturesGallery;Persist Security Info=False;" +
+            "Server=tcp:test250108.database.windows.net,1433;Initial Catalog=PicturesGallery;Persist Security Info=False;" +
             "User ID=manager;Password=Abcd1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-        string? foldpath;
-        string? OriPath;
+        private static readonly string PicturesPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images2");
+        string OriPath;
         int PicWidth;
         int PicHeight;
 
@@ -23,18 +23,18 @@ namespace Project_PicturesGalleryPlatform.Models.UploadModel
         /// <returns>返回包含所有錯誤訊息的List</returns>
         public string DataCheck(pictureInformation data)
         {
-            
-            ValidationContext context = new (data, serviceProvider: null, items: null);
+
+            ValidationContext context = new(data, serviceProvider: null, items: null);
             var validationResults = new List<ValidationResult>();
             bool isValid = Validator.TryValidateObject(data, context, validationResults, true);
             string result = null;
-            if (isValid) { Console.WriteLine("用戶資料有效"); } 
-            else 
-            { 
-                foreach (var validationResult in validationResults) 
+            if (isValid) { Console.WriteLine("用戶資料有效"); }
+            else
+            {
+                foreach (var validationResult in validationResults)
                 {
                     result += validationResult.ErrorMessage + "\n";
-                    Console.WriteLine(validationResult.ErrorMessage); 
+                    Console.WriteLine(validationResult.ErrorMessage);
                 }
             }
             return result;
@@ -52,7 +52,7 @@ namespace Project_PicturesGalleryPlatform.Models.UploadModel
             //// 取得檔名
             var fileName = Path.GetFileName(file.FileName);
             //// 設定路徑
-            this.foldpath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploaded_pictures");
+            string foldpath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploaded_pictures");
             if (!Directory.Exists(foldpath)) //// 確保路徑存在
             {
                 Directory.CreateDirectory(foldpath);
@@ -80,7 +80,7 @@ namespace Project_PicturesGalleryPlatform.Models.UploadModel
         /// <returns>返回是否成功</returns>
         public bool ImageDataToDB(pictureInformation data)
         {
-            int pictureId = 0;
+            int? pictureId = null;
             using (SqlConnection sqlConnection = new(connectionString))
             {
                 try
@@ -94,9 +94,10 @@ namespace Project_PicturesGalleryPlatform.Models.UploadModel
                         if (result == null || result == DBNull.Value) { pictureId = 1; }
                         else { pictureId = Convert.ToInt32(result) + 1; }
                     }
-                    //// 再將資料插入
-                    
-                    goto skipInsert;// *測試用，暫時以下封閉，發布前要打開
+
+                    bool testSwitch = true;
+                    //goto skipInsert;// 測試用。取消註解時，以下區域封閉
+                    testSwitch = false;
                     commandString = @"INSERT INTO Pictures(id, title, tag, width, height) VALUES(@id, @title, @tag, @width, @height)";
                     using (SqlCommand sqlCommand = new(commandString, sqlConnection))
                     {
@@ -108,14 +109,22 @@ namespace Project_PicturesGalleryPlatform.Models.UploadModel
 
                         sqlCommand.ExecuteNonQuery();
                     }
-                    skipInsert:
-                    Console.WriteLine("測試中，跳過資料庫寫入");
-
-                    //// *圖片移動至正確路徑(我們需要正式決定一下圖片儲存的位置
-                    //// 將圖片名稱改以ID命名
-                    var newpath = Path.Combine(this.foldpath, pictureId + ".jpg");//// 要修改路徑、副檔名
-                    File.Move(this.OriPath, newpath);
-                    return true;
+                skipInsert:
+                    if (testSwitch) { Console.WriteLine("測試中，跳過資料庫寫入"); }
+                    // *圖片移動至正確路徑&將圖片名稱改以ID命名
+                    if (pictureId != null)
+                    {
+                        var newpath = Path.Combine(PicturesPath, pictureId + ".jpg");// 要修改路徑、副檔名
+                        File.Move(this.OriPath, newpath);
+                        Console.WriteLine("成功保存圖片: " + newpath);
+                        return true;
+                    }
+                    else
+                    {
+                        File.Delete(this.OriPath);
+                        Console.WriteLine("Error: pictureId為null. 上傳失敗");
+                        return false;
+                    }
                 }
                 catch (SqlException ex)
                 {
