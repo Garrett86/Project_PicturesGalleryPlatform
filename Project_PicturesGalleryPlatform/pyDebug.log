@@ -528,3 +528,39 @@
 2025-01-07 18:21:11,436 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
 2025-01-07 18:21:15,334 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
 2025-01-07 18:21:15,336 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/25fbf5e5-8bb9-4e51-98ba-9d8f7c3e8539/outputs/output.jpg
+2025-02-17 14:46:54,151 - __main__ - DEBUG - pythonScript has execute
+2025-02-17 14:46:54,153 - __main__ - DEBUG - Received arguments: ['cat', '1']
+2025-02-17 14:46:54,153 - Translate - DEBUG - enter translate_text()
+2025-02-17 14:46:54,154 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-02-17 14:46:54,169 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-02-17 14:46:54,171 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-02-17 14:46:54,174 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-02-17 14:46:54,304 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-02-17 14:46:54,306 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-02-17 14:46:54,436 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-02-17 14:46:54,437 - Translate - DEBUG - Text: cat
+2025-02-17 14:46:54,437 - Translate - DEBUG - Translation: cat
+2025-02-17 14:46:54,437 - Translate - DEBUG - Detected source language: en
+
+2025-02-17 14:46:54,437 - GenerateAIPictures - DEBUG - enter genPic()
+2025-02-17 14:46:54,438 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-02-17 14:46:57,481 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-02-17 14:46:57,484 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/c922a47f-553f-421f-9a4b-42eb2f015467/outputs/output.jpg
+2025-02-17 14:47:26,959 - __main__ - DEBUG - pythonScript has execute
+2025-02-17 14:47:26,959 - __main__ - DEBUG - Received arguments: ['¿ßª¯', '1']
+2025-02-17 14:47:26,960 - Translate - DEBUG - enter translate_text()
+2025-02-17 14:47:26,960 - google.auth._default - DEBUG - Checking .\thinking-avenue-446509-u0-8deda71ba257.json for explicit credentials as part of auth process...
+2025-02-17 14:47:26,971 - urllib3.util.retry - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-02-17 14:47:26,972 - google.auth.transport.requests - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2025-02-17 14:47:26,975 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2025-02-17 14:47:27,099 - urllib3.connectionpool - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2025-02-17 14:47:27,102 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): translation.googleapis.com:443
+2025-02-17 14:47:27,222 - urllib3.connectionpool - DEBUG - https://translation.googleapis.com:443 "POST /language/translate/v2?prettyPrint=false HTTP/1.1" 200 None
+2025-02-17 14:47:27,223 - Translate - DEBUG - Text: ¿ßª¯
+2025-02-17 14:47:27,223 - Translate - DEBUG - Translation: Cats and Dogs
+2025-02-17 14:47:27,223 - Translate - DEBUG - Detected source language: zh-TW
+
+2025-02-17 14:47:27,223 - GenerateAIPictures - DEBUG - enter genPic()
+2025-02-17 14:47:27,225 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepai.org:443
+2025-02-17 14:47:30,019 - urllib3.connectionpool - DEBUG - https://api.deepai.org:443 "POST /api/text2img HTTP/1.1" 200 None
+2025-02-17 14:47:30,021 - GenerateAIPictures - DEBUG - https://api.deepai.org/job-view-file/0840b9cf-711e-48db-976c-2594fe0c5ac3/outputs/output.jpg
