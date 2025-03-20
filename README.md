@@ -2,7 +2,7 @@
 - 報告文件:
 	* https://bit.ly/4iHF5O9
 - 簡報:
-	* https://bit.ly/4iC7ghi
+	* https://bit.ly/4kCHHOV
 - 展示影片:
 	* https://bit.ly/4b1gNf6
 ## 注意事項
